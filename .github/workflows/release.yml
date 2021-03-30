@@ -1,0 +1,112 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+  repository_dispatch:
+    types: [deploy-pages]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      DOTNET_NOLOGO: true
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false # Required for JamesIves/github-pages-deploy-action
+          path: main
+      - name: Checkout daf-core-sql repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
+          repository: bjorhn/daf-core-sql
+          token: ${{ secrets.BJORHN }}
+          path: daf-core-sql
+      - name: Checkout daf-core-ssis repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
+          repository: bjorhn/daf-core-ssis
+          token: ${{ secrets.BJORHN }}
+          path: daf-core-ssis
+      - name: Checkout daf-core-adf repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
+          repository: bjorhn/daf-core-adf
+          token: ${{ secrets.BJORHN }}
+          path: daf-core-adf
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x # SDK Version to use.
+          source-url: https://nuget.pkg.github.com/bjorhn/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{ secrets.BJORHN }}
+      # - name: Setup Nerdbank.GitVersioning
+      #   id: nbgv
+      #   uses: dotnet/nbgv@v0.4.0
+      #   with:
+      #     path: daf-core
+      - name: Restore nuget packages for Sql
+        run: dotnet restore daf-core-sql/Daf.Core.Sql/Daf.Core.Sql.csproj
+      - name: Restore nuget packages for Ssis
+        run: dotnet restore daf-core-ssis/Daf.Core.Ssis/Daf.Core.Ssis.csproj
+      - name: Restore nuget packages for Adf
+        run: dotnet restore daf-core-adf/Daf.Core.Adf/Daf.Core.Adf.csproj
+      # - name: Download the latest DocFX release
+      #   uses: Legion2/download-release-action@v2.1.0
+      #   with:
+      #     repository: dotnet/docfx
+      #     tag: 'latest'
+      #     #tag: 'v2.51'
+      #     file: docfx.zip
+      - name: Download latest DocFX release
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://github.com/dotnet/docfx/releases/latest/download/docfx.zip'
+      - name: Unzip DocFX
+        run: unzip docfx.zip -d docfx-tool
+      - name: Set permissions
+        run: chmod 777 docfx-tool/docfx.exe
+      - name: Run DocFX
+        run: docfx-tool/docfx.exe main/DocFX/docfx.json
+      # - name: Build Documentation
+      #   uses: nikeee/docfx-action@v1.0.0
+      #   with:
+      #     args: main/DocFX/docfx.json
+      - uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: main/DocFX/_site
+      # - name: Deploy
+      #   uses: JamesIves/github-pages-deploy-action@4.1.0
+      #   with:
+      #     branch: gh-pages
+      #     folder: site
+      #     single-commit: true # Wipe commit history.
+
+  release:
+    needs: build
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false # Required for JamesIves/github-pages-deploy-action
+      - uses: actions/download-artifact@v2
+        with:
+          name: site
+          path: site
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.0 # github-pages-deploy-action currently only runs on Linux.
+        with:
+          branch: gh-pages
+          folder: site
+          single-commit: true # Wipe commit history.

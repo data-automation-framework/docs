@@ -1,0 +1,13 @@
+apiRules:
+  - include:
+      uidRegex: ^Daf.Core.Sql.IonStructure$
+      type: Namespace
+  - include:
+      uidRegex: ^Daf.Core.Ssis.IonStructure$
+      type: Namespace
+  - include:
+      uidRegex: ^Daf.Core.Adf.IonStructure$
+      type: Namespace
+  - exclude:
+      uidRegex: .*
+      type: Namespace
