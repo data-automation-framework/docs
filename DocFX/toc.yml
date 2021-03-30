@@ -1,0 +1,8 @@
+- name: Tutorials
+  href: tutorials/
+- name: SQL Plugin
+  href: fusion-sql/
+- name: SSIS Plugin
+  href: fusion-ssis/
+- name: ADF Plugin
+  href: fusion-adf/
