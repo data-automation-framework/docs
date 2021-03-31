@@ -22,21 +22,21 @@ jobs:
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: bjorhn/daf-core-sql
-          token: ${{ secrets.NUGET }}
+          token: ${{ secrets.GITHUB }}
           path: daf-core-sql
       - name: Checkout daf-core-ssis repo
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: bjorhn/daf-core-ssis
-          token: ${{ secrets.NUGET }}
+          token: ${{ secrets.GITHUB }}
           path: daf-core-ssis
       - name: Checkout daf-core-adf repo
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: bjorhn/daf-core-adf
-          token: ${{ secrets.NUGET }}
+          token: ${{ secrets.GITHUB }}
           path: daf-core-adf
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
@@ -44,7 +44,7 @@ jobs:
           dotnet-version: 5.0.x # SDK Version to use.
           source-url: https://nuget.pkg.github.com/bjorhn/index.json
         env:
-          NUGET_AUTH_TOKEN: ${{ secrets.NUGET }}
+          NUGET_AUTH_TOKEN: ${{ secrets.GITHUB }}
       - name: Restore nuget packages for Sql
         run: dotnet restore daf-core-sql/Daf.Core.Sql/Daf.Core.Sql.csproj
       - name: Restore nuget packages for Ssis
