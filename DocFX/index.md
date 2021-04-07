@@ -14,14 +14,14 @@ footer{
       <strong>Daf</strong>
     </div>
     <div class="buttons-unit-small">
-      <a class="github-link" href="https://github.com/bjorhn/daf-core">View on Github</a>
+      <a class="github-link" href="https://github.com/data-automation-framework">View on Github</a>
     </div>
     <div class="minitext">
     An extensible data automation framework
     </div>
     <div class="buttons-unit">
       <a href="tutorials/intro.md" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
-      <a href="https://github.com/bjorhn/daf-core/releases" class="button"><i class="glyphicon glyphicon-download"></i>Download</a>
+      <a href="https://marketplace.visualstudio.com/items?itemName=data-automation-framework.daf-core" class="button"><i class="glyphicon glyphicon-download"></i>Download</a>
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ footer{
         <i class="glyphicon glyphicon-transfer"></i>
         <section>
           <h2>Run anywhere</h2>
-          <p class="lead">Daf currently runs on Windows, but soon it'll run on Mac OS and Linux too. All you need is VS Code and a set of plugins matching your target data architecture.</p>
+          <p class="lead">Daf runs on Windows, Mac OS and Linux. All you need is Visual Studio Code and a set of plugins matching your target data architecture.</p>
         </section>
       </div>
     </div>
@@ -71,7 +71,7 @@ footer{
         <i class="glyphicon glyphicon-cutlery"></i>
         <section>
           <h2>Code-from-scratch or deploy a complete Data Vault using Daf DW</h2>
-          <p class="lead">You can code your own ETL flows or data warehouse from scratch using only Daf Core, or you can combine Core with Meta and DW for a complete, fully automated Data Vault 2.0 solution.</p>
+          <p class="lead">You can code your own ETL flows or data warehouse from scratch using only Daf Core, or you can combine Core with Meta and DW (yet to be released) for a complete, fully automated Data Vault 2.0 solution.</p>
         </section>
       </div>
     </div>
