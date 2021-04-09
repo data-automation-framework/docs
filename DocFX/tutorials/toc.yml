@@ -1,4 +1,4 @@
 - name: Introduction
   href: intro.md
-- name: Build System
-  href: buildsystem.md
+- name: Project configuration
+  href: project-configuration.md
