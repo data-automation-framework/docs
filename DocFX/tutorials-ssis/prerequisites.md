@@ -1,12 +1,12 @@
 > [!NOTE]
 > This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change.
-# Prerequisites for using Daf
+# Prerequisites for using the Daf SSIS plugin
 
 Visual Studio Code
 
-Install the VSCode extension from the extension marketplace (not yet released).
+Install the VS Code extension from the extension marketplace.
 
-A local SQL Server installation with the following components installed (only relevant if you want to build SSIS packages):
+A local SQL Server installation with the following components installed (nothing else is required):
 * Client Tools SDK
 * Integration Services
 
