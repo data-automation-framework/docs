@@ -1,0 +1,2153 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/docs/docs/main/DocFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion-adf/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion-adf/toc.html",
+          "hash": "WYz0UwF7SFsluZJlK/Xcj/pQw6Ya2UckG5DBZ+FDLJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion-sql/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion-sql/toc.html",
+          "hash": "PU/+K2ImWPp+UBXtRjq4XF6vq/QCwNu9qRlSEAxmJe4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion-ssis/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion-ssis/toc.html",
+          "hash": "sUeta0X9wsfnmVRlvVVxDxELGfQXr5mx/Sbtp3eFdAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "index",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QSQOn4jDKeQ3CIj18bs3pUoE9Dd3exIky5v7zHFdakQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Activity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Activity.html",
+          "hash": "d6YHq2tp6/O07HAjnwZu32wLrN6ztKdFVFCLz3H5f50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ActivityTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ActivityTypeEnum.html",
+          "hash": "hiGJyQjk257mMtto+9WxoOmA5srIVpcgkpQzA+6UJGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AdditionalHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AdditionalHeader.html",
+          "hash": "AiIE48HIqnAsoZhPyFSD07ymjd5OXawMd69J9T2CVkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Adf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Adf.html",
+          "hash": "9aPJOMyT2LXc6RH6b8crnua0nvx7DvzgTkH7uLRGKz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AuthenticationTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AuthenticationTypeEnum.html",
+          "hash": "EP/vUIwkPdFeNlJk1fq4Bm1098p/Exgiv6D0jzLTT8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureDataFactoryProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureDataFactoryProject.html",
+          "hash": "vda4bua6E5lGO0lv+HW+UmeLAduQIQ3cV96lmNAxLmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureFunction.html",
+          "hash": "TSqD9poCWN0FGwxB6OisOe11hd04vMDsbMDIAp/DFek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumn.html",
+          "hash": "LroV3qRgdQ7bHIJI+pBE0+fAqgm4+S7W6rEux9hHnJw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumnTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumnTypeEnum.html",
+          "hash": "3mKFq0jCmcfRsMlb3BmYHRWor/JwbdrUfOX6xzV4Wgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableSchema.html",
+          "hash": "FVFBU1VQiSQGWa8fjBveNSkXimS6ugr86i1UlyZtX5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Container.html",
+          "hash": "3dRLXWyoEgx9LYtgwu6K1U1gAZCwUaYTRpeUlXaVBUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Copy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Copy.html",
+          "hash": "f3NbjX5gHxT/3qJzzjlHOy4tZEOIBmraBErKtXNQn4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSet.html",
+          "hash": "NtTJAAQsBXqrGZ/X8CS6U/oTDWZFQr69TICaaoaznBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSetTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSetTypeEnum.html",
+          "hash": "Y/4js/1pxlqup6m3BiSzpX9u8GaslgcTX2WpUfcvtOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSinkTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSinkTypeEnum.html",
+          "hash": "Wjr1ajmGKg+zqLRQTucjeVocY+q6pYp7T++KvA/hmT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSourceTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DataSourceTypeEnum.html",
+          "hash": "Ina0QnTpObotX1+dX0rv2oxKrwQgiAbp4fyh0/Q1uBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Dependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Dependency.html",
+          "hash": "+HXaq5bLvP//VnbVgXNFJgLDo6bZpRObtzqksKlb8aE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyCondition.html",
+          "hash": "kvCk5JFLzNrjzfYuHiTcKZIf5alEmzvcauPPqE0O//A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyConditionTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyConditionTypeEnum.html",
+          "hash": "WrEKkEJubhoGQrFTiXj88jk+egiQ1FQPYxVHFRVPzNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ExecutePipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ExecutePipeline.html",
+          "hash": "ZhgIoXzAejnrOBdv20Dk37p8ldDVtVkObzrcVLd3V2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.FileName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.FileName.html",
+          "hash": "shKo+DM84zHFy8aSFUAX3MNobWka7LP+JVEsUctg6no="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.HttpMethodTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.HttpMethodTypeEnum.html",
+          "hash": "zbj4c+3U6EZII1CybBS7/RGZZ0X9gPdEtS0tTwbNv0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.IfCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.IfCondition.html",
+          "hash": "GO6EXNsxgj29Dwlm51mgdAXTESWhALxGhHv2jlJCiJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Input.html",
+          "hash": "M1v6gFN72AicbeELBDzunQVFRBPNWQOhmoyWVH1Ezpg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItem.html",
+          "hash": "EXJAOcst1HlpINMIPVrFNWRQfIUs0Wkg7kUhjLzSZEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItemTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItemTypeEnum.html",
+          "hash": "nc4x6mXbojdeoSIZmbZNtgIUkbup0DQehrPfTaQhVak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.JsonSchema.html",
+          "hash": "P7AB5XMNX7hNqR54KLk8iSOjtEmeOGY4Ll9ogxMLmzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedService.html",
+          "hash": "R0Uo4tCDF1kOrsRtL6F3h7Srsthwc+xxns72TNaMokU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedServiceTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedServiceTypeEnum.html",
+          "hash": "Llenvgy8w/05ya1qoGkHeHC/E+jupW8nr6jvIXJWqsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Location.html",
+          "hash": "tkWbklPiXKP1DH5Ew+F2WpmdPn5N/pSqQMM88/q7ni0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LocationTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LocationTypeEnum.html",
+          "hash": "Uo1va0wbfJfblwWdrjp34Fg+dlCHr/lxfbsJokWMdio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Lookup.html",
+          "hash": "H7O/lFgm6aRGB6ghFkYAguOdybrQcH5v+nRBVQjgnF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LookupDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.LookupDataSet.html",
+          "hash": "ZHtFg0WJQA7+y2jLMUVk2Lc3Hs5vO2bCCUVPsqamE9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Mapping.html",
+          "hash": "X98805jIdA9Mqo5OMPKVThxd2BSUEefVNJyOiJc0G4Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSink.html",
+          "hash": "/WeyJ64CqbfD3uovUN9m89GOD+nnse/s98SMq1FeVTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSinkTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSinkTypeEnum.html",
+          "hash": "9pRrW1sw7R6KU+ucIlolPboasAyq1oRbR+cbpV7nW/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSource.html",
+          "hash": "1YNLVb+nve8LR0pXr55U+fD8gXxk28lcZx+z2tI1PgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Output.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Output.html",
+          "hash": "HUmGZR/1+UiEnNrly7PmYFsgRE7vjFowtuqRbNLi1oQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PaginationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PaginationRule.html",
+          "hash": "PoEPJFqf7etCzN0iF1+0bx2de/+lR5XbqDYf3gI7EsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Parameter.html",
+          "hash": "sGqJhBasKpBQK5OkAH5Mqf7vC6zUIe4Nko+1U4CozJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Pipeline.html",
+          "hash": "76bPFmbHvby1AFwCAfmwd054A57B6oKk4cpbQL0TQ98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineParameterTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineParameterTypeEnum.html",
+          "hash": "N8Oi8dRKOe0decBy+su4SEB/Ts+iPMxvnFddORkucQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineVariableTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineVariableTypeEnum.html",
+          "hash": "VWHY0k+i1mZzTG4G1BlBdYDlWfIglHIfzJhgpnDERhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Property.html",
+          "hash": "DaBp5NiLc9FvXf5mijjzDe3RaA7zrZ60cuj1nwnpcN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.SetVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.SetVariable.html",
+          "hash": "tw6VZ16RTHklrVMjTh30VCT3TSD75eJL8Y2TaBUAwi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Sink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Sink.html",
+          "hash": "ELLpJHkCkZ0wjOQdBjDj0TuYbHKpjtaT6AfEUOT/9yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Source.html",
+          "hash": "McxGcaLL1K6AF7d40YbVwBdsoNa1CeE0gubtCy6BVkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.SqlServerStoredProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.SqlServerStoredProcedure.html",
+          "hash": "OM1HtPhLUMARlgs7p18Xjgldj+A6Wqu+clmqvvNkdjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettings.html",
+          "hash": "gHxCieTn2lrD0KW/ojPavf8CqaQwkWqDCKPpOiBFpDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettingsTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettingsTypeEnum.html",
+          "hash": "BAihuXJnd8S7E/BisPJNRybrbdmyApnEc/yz0isY1cw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameter.html",
+          "hash": "ae+9L8XwBu+WPljdx1THzhYBM3lknrKiQ3bzLoIDm7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameterTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameterTypeEnum.html",
+          "hash": "5znp1DbWxboEYucTriwA69NkWsYo2RzlYKVofpGdins="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Translator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Translator.html",
+          "hash": "Mb3LPqFCMzDfETg4b8BdE7199PqoD92VRFKu5IOFzEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.TranslatorTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.TranslatorTypeEnum.html",
+          "hash": "xJAPsi1Yo3RWoz+dstciyYbQqfOJMo3SxQAgLLRYc/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Until.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Until.html",
+          "hash": "W+i75EF9q1iJcmtPmXkRXM4/W2aUYchMLYve2ls6dOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ValueTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.ValueTypeEnum.html",
+          "hash": "1J5OYUCV3/g3GeLWijE8nxv13KURlORD3WoLraOok+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Variable.html",
+          "hash": "rADwBKD5DljuwX0cYVtVro7DtctwL+6KpTMl9ST3u54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Wait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Wait.html",
+          "hash": "oK5Tr7F/VrQl3lrhOgkuuyqUr4AHOrEXdyPq9ZJbTFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.Web.html",
+          "hash": "9Pke7TzzJPk/JLEl7fTi9t14qau7SGY5ZSCIc7dWJl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.WildcardFileName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.WildcardFileName.html",
+          "hash": "Q8C0tfULP+lh9KDp1fsxAHpgQhXjaM2Kqt3M9fZ0oCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-adf/Daf.Core.Adf.IonStructure.html",
+          "hash": "ya6Vfc5s92zzQDC027BJ2jlxCgfG3wW6kYnBhA19cD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.BusinessKeyColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.BusinessKeyColumn.html",
+          "hash": "Udp7L4xQE4DS9OycmrMDC5jc8UuOS4ZPLwpTvACoYX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.ColumnReferenceHint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.ColumnReferenceHint.html",
+          "hash": "zqSNBiOFsnO6aROKWBxbRPD1lSNBOKMVUeIfmswWmwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DacpacDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DacpacDependency.html",
+          "hash": "7Rglf0eOJEOsI9B8UskEtJiHB5+OrEbIShSPrVg7L64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DataTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DataTypeEnum.html",
+          "hash": "BKxTAHCmjLytK5C5PMqIQFl+qDkAORrxwOGVgkYQFEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Database.html",
+          "hash": "9JVjW4aagKrtfmJedMWR2apkx8ibAcTSN0Aey4e3uzg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependency.html",
+          "hash": "fgZBAtBUQADN6sZoObMhNU9dWv/zDtcAd6UjMefNRcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependencyBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependencyBase.html",
+          "hash": "mvv8h1IVTwvWjZrnhJuwETfPBlja3a0Tk0JOsaEz8+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Folder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Folder.html",
+          "hash": "PkLOB0fIp45nvjzuNtzhRs4k8DbNB02LhLdIaNzUZ4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.ForeignKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.ForeignKey.html",
+          "hash": "VLnejK91UR8W4/odWMG7Snm6M7FadX1xt0+CSvxS16g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Function.html",
+          "hash": "ncl+SwS+q49amsxjliTki3/biNKlCCsg/Y3F9h/TrfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Index.html",
+          "hash": "qNxq1zrxQHk+LdglXrzYm97EJJ38FA+LBg2m3Z9gqb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.IndexColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.IndexColumn.html",
+          "hash": "ViVb7mEIQmQqsEwSmCf3rTFceqRd+l9frBhYnhr1NrM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.IndexInclude.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.IndexInclude.html",
+          "hash": "dZ5lOAGP0gw/6q+Oyweh+Leow+rPn5woSM0VavM6qsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.MultipleColumnForeignKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.MultipleColumnForeignKey.html",
+          "hash": "oaF1CuUMIpnoE9/pFjQZtLD/0+Q3W09GezdTdZEu7Pc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Object.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Object.html",
+          "hash": "D3Gf7u6jCjUn/PFXB/gAosumPDa7cIGHKQBfETwJxto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKey.html",
+          "hash": "YYSmgQTpxcP27jpbCVVezChkqLdMN+6Zl5zpcvX1wYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKeyColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKeyColumn.html",
+          "hash": "1AxaholLWnIk5rLY/2VeNOZJ7iHk5J4hgT/vjsnOi1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Procedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Procedure.html",
+          "hash": "yaeY8pZ1c1Fp6PTWXf6bkcVADf+bZ2LFzvk73uZRWzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Schema.html",
+          "hash": "eZgyZwLr0PgBxl0aYJMk+Wj4g7ofPtKYkXY0aa3WjZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SchemaCompare.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SchemaCompare.html",
+          "hash": "76Z7maedb8uB/OjrIgDDEUm/GMLGSY506XySI9oTC8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SortOrderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SortOrderEnum.html",
+          "hash": "TnLLhXpUXer9Ccre6r9VXLB99PofRJqdnqdWuY2xMdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Sql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Sql.html",
+          "hash": "6UOzLXKmlm0nco0i5Fp5bUdb8v+4r7N5yjbPPD5uU9E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SqlProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SqlProject.html",
+          "hash": "P+sDddEtyZ/3w+EP2ecgkAcVSAQkJ3ER+Z++IJRL4hM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SystemDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.SystemDependency.html",
+          "hash": "ANx4lTKgLF4Sjowxr7v36yUVeASwi/KvKJhobFzPf/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Table.html",
+          "hash": "EOuH8Y0/eueO7KmB+teXahhXlb2iN3AnerVTWtnC4Zk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumn.html",
+          "hash": "/nYq8Vcc+UuIkGBd0a/8cPnOvayBwk859YkiIlPc+Ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumnBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumnBase.html",
+          "hash": "LlH+Qo7LmybctFF7Q/Ps+XseLCvsxrdIFNm6oa1ld+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableCompressionTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TableCompressionTypeEnum.html",
+          "hash": "eHHkVRD+gz2A9cEswSjgoqA1dGRu5fWKo0fYYPvyED4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerPlatformEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerPlatformEnum.html",
+          "hash": "PSxI8x8VVNgHZa0l08+VD/HYwpy0+aIPAlcDY/lQkHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerVersionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerVersionEnum.html",
+          "hash": "OU+0R2E7rQ0ejmOi7tStgKJ1LXdYlJPOnpxZfkxSwXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.Trigger.html",
+          "hash": "EVYnbrcmWKsq1XSVNhNzfjsW+x+ezrTvr4iQB/RqYiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.View.html",
+          "hash": "GUKaX+0/LMobmI3OUc76+slPTm7iAzyPIigdt3KDTUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-sql/Daf.Core.Sql.IonStructure.html",
+          "hash": "ZP1OfbJd3azjWmmGUXmqXGsyz5a6regMtNmdv7zwtWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.AssemblyReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.AssemblyReference.html",
+          "hash": "REWB3Lx3V9MO4EoZWjsx9X8id74iKaPCGN5E0LDSHOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ColumnErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ColumnErrorHandling.html",
+          "hash": "toeAkjHM6hRQc3CSKmcjEJMmaOxFTffTLVmQdTeQtQI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Component.html",
+          "hash": "+tKCzhlh5VRV+QwM8maQt5ETiFADKD2TTcJSQxisoyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ComponentErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ComponentErrorHandling.html",
+          "hash": "npMCmpDpdnp+JocmKCkz5Nka4OneVwc8qxGfz2JBvHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Connection.html",
+          "hash": "sw+t0S1mpWzj2jra8Y3Fp5iXJsdBlq7tyMYk+z4jRrQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomComponent.html",
+          "hash": "yOHM+GYnBNCu2Jz1MU6TdjpRlfzX93liKd/TIP9VtCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomConnection.html",
+          "hash": "oWPHvWcfvgmtMHZYqRQLWRpza+/ib/+V3VacjfyWSy8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomProperty.html",
+          "hash": "vrhvjDA4izhGgYBn+W2X023e1RHVJ8rYGnqqZPgrYQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlow.html",
+          "hash": "61naxJyghriKZ1ScRNspK0ub83eQHeN7AeIK/dKvjDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlowColumnMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlowColumnMapping.html",
+          "hash": "G+cqOeEnOc3T8+gBTXwWbF0S8uEEncCfd23kBUgtHNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DatabaseTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DatabaseTypeEnum.html",
+          "hash": "In8YUwYCVgiIFINBkEiZxDMXKzAEQiY1D1H0fNih/kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataflowInputPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataflowInputPath.html",
+          "hash": "q1a2O8wcQ3QI78cHGCCB/FG5mBBef0+/6bVw+Sv9OnQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumn.html",
+          "hash": "SPYhaqyDoXxygZb0WbRe9y0bOWrcv2dgdv1U2+/OmrQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumnEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumnEntry.html",
+          "hash": "sgYWp9zRormH8sWl+YwG9VrTJad+h1Ly9zaATe+ZCtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventHandler.html",
+          "hash": "Y2Da/aAqSVVe2y8yJrKB9DfunxsiycjWESOpSVI5pMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventTypeEnum.html",
+          "hash": "M+a+tQAZ263GNEDay/EVQREBTk+ep/m/8IsZohlvzSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteProcess.html",
+          "hash": "VTtlj2yo3Mclanq/t4JV/5kP4zMbIUXJ2LShAdcn5AQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSql.html",
+          "hash": "VSl190Tkex33tBp7IOJFV1D0HimaI3CADjvjPHIIv2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlResultSetEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlResultSetEnum.html",
+          "hash": "Xf1hHaLaZt2e4AyCuiwwIVCzXZnxeMPa2Q2Y2OfRHPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlTypeConversionModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlTypeConversionModeEnum.html",
+          "hash": "ZFr5pOLubLHxJkp/r1NzhZgrvEzsqyLgRS9PwSPnt94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Expression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Expression.html",
+          "hash": "lfkxQPa9g1mXTm5+xFzC2NQffNlSD9LvpRiamkLf1vk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExternalTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExternalTable.html",
+          "hash": "saDjXS83UaQ1oSUm6eR070aZB1ktXPHrjEWxtt766+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.File.html",
+          "hash": "zUXBG5U9F5TgHUMki1C5KzRW+CC+Ka0c2g4HfLoj9BA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileColumn.html",
+          "hash": "/bzo8pDQEUhLPAv6CMOMw4rkIYfipZd27uOEYBVW3H0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileConnection.html",
+          "hash": "yLH2r3xgD020YTfjF5tA4tQRktoPYR867N/puw2taHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileDestination.html",
+          "hash": "98ma3YfR0mhLcYPYWagHH/Sv8nvyxYcFn4U89SkjoHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileFormatEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileFormatEnum.html",
+          "hash": "XsN+eMGQew0FwKIB6l0tdLJno+gqMMMp3Y6BwbDqIWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileSource.html",
+          "hash": "mz8vlDz2hOV6S5d0as/TKc0tHJZUdHSUtltsCOiBWZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForEachFromVariableLoopContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForEachFromVariableLoopContainer.html",
+          "hash": "v/f4i5x3JQ47OG4A8Syo9eNL1Zvd4KK4h5tZEEJl5AA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForLoopContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForLoopContainer.html",
+          "hash": "SmSACUiK10Dut7zTJ/pfafgsIOWS90yWU1GmrlRvZqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForceExecutionResultEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForceExecutionResultEnum.html",
+          "hash": "P/VWWXZ33Yead33HDsuIIw6XpAA6wPQKqfrqO8NKf30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputErrorHandling.html",
+          "hash": "SrP6bs1oMz46PxSboZKck7nO6kDMrc9BHvFCnkb7NVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputPath.html",
+          "hash": "NwtZWG3nGm5SQLGa2Xau4VTFQZEFpnw+JOLUhipNiTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.LogicalOperationEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.LogicalOperationEnum.html",
+          "hash": "FlsEU2v98uz3w5VlniZPZ+x0pSadv/uitODtV8cWCIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbConnection.html",
+          "hash": "i2+o2m1XibH/EFrCN7z9akzrBjhY514m3CNYisidda8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbDestination.html",
+          "hash": "Q8Uol5nX8042E8TddYfo7f+jj7Wh4MUFRyIubdsq6VA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbSource.html",
+          "hash": "94wDOMqldBTfuskqFLE38fYHlfnU7dFOUNPNnNJ06Ps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OutputErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.OutputErrorHandling.html",
+          "hash": "nuJ/g1rKXVuseGw4XjWJeJmt7HRZq50zryL+8gLNsxQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Package.html",
+          "hash": "YzWNJfRVUIGlwFigOQ6R5ILwRl8VPtg72mT1+9Kgi1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Parameter.html",
+          "hash": "lx3JcFps8nWElCv7PzuVXWSlZwMyGfhmEYr1fZr1b4c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ParameterDirectionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ParameterDirectionEnum.html",
+          "hash": "7QXOY4Dp+35RPNpaL8HF9sbhybZdLjVLPJH+Lyz6Pj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.PrecedenceConstraintList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.PrecedenceConstraintList.html",
+          "hash": "hAvLWKfw3qXIrXjBEOPKFDNfZ4uJzLVps/Y1KoIJybw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.PropertyExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.PropertyExpression.html",
+          "hash": "9Dx1MyHB0bRnfa6kZCThKa1DUdIHvnTOrXwXbV/Dm0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ProtectionLevelEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ProtectionLevelEnum.html",
+          "hash": "2YFyjsdnaUYde6Ddr7iEXDszeDlq7QLWXTY4lu69Uqo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Result.html",
+          "hash": "7OnzVXSm3JI4BZFFFVQVJfG5lMuAkyMNZJ2FRJZt1cI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowCount.html",
+          "hash": "IHJ3QWxM4GEtDQJJBxUDGBEORz7RwFcak9XzNwVNTGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowDispositionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowDispositionEnum.html",
+          "hash": "+q5X1PaNUxbJvdn30wWy4gwN1TysCW1P9tyfJ25vwUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Script.html",
+          "hash": "/ludV2oaQi7laFVyEvXqeywlSfRsv3ehzzOTZ1a0zCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProject.html",
+          "hash": "gTYMkglwzEUCPd8b3gKNJFWV2uHCF+Dosv+8WYbDlyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProjectReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProjectReference.html",
+          "hash": "xtEQObenVvqtT+7XQN8j0uf5UyVVmm+eQuz//1a+jEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptVariable.html",
+          "hash": "R/A+Nx2YXTwbZaQZeeygn1KdSzzXy9HT8w3n0r5KKBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SequenceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SequenceContainer.html",
+          "hash": "qW5XBvTZXidcG3XSmmsFAMwyUPf/VLTnWsLZjGJOxNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlCommand.html",
+          "hash": "QQpLPRBdKWnMQ6E2f2bMRY0/pu4IHY3CHX0nR9+03EQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlParameter.html",
+          "hash": "SREiRMAX3xWqIii+MGcY7bqJSwO0Y7QQKVV0HcWF2ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlStatement.html",
+          "hash": "04k6SAAKrQ1knZhiUChtHzfysemqTJf+CAf3gZmV6Xk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Ssis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Ssis.html",
+          "hash": "21VlTNfeQjg71AgKoUdfqk7bKKUXjRoAl/H/XoNWMmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SsisProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.SsisProject.html",
+          "hash": "ll+osz6/wzUN5zTX0Ezug24x2EHWtkH+mFzkX+wnd7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TargetSqlServerVersionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TargetSqlServerVersionEnum.html",
+          "hash": "4p71D1k6U6MqUoiXXCuMsueuHc4Ph2dCjsbEjT4znvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Task.html",
+          "hash": "NslE9QAdu0AepLE/YT1haoSZB/Ep7E9vhTg+wLjjUSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationTypeEnum.html",
+          "hash": "TWlalxUZQ+67Nbndwm+M0kt3G5ihjMxX06wOyKmVHq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationValueEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationValueEnum.html",
+          "hash": "3b3oID/QyhnM0msbPMfmmMViiAVKtawiUOefPbjD5ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.Variable.html",
+          "hash": "da8CfIh6FJxhBnAotFYTAYUBBTrp4OrhyiLiizy+Itc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableIndexMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableIndexMapping.html",
+          "hash": "N2Sr/c/rjkvLOMct4sMPM/KzQtn4brleDImfOJiMIqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableParameterMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableParameterMapping.html",
+          "hash": "pKknRZZQff8UM64voWRbapZ6j1HlO4aJquLr7ZEJDXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableResource.html",
+          "hash": "YUmOCxC9QN1IY49Xc3TcksrY5nB9YXslfjssxPVtOMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.WindowStyleEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.WindowStyleEnum.html",
+          "hash": "fXpw2tPVa6FV1QpjA4ZYmyIbR3pjOqV/CtKEkDHh8r0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin-ssis/Daf.Core.Ssis.IonStructure.html",
+          "hash": "Jo8VngNbko57LYuCVFLPY7gGp/uOGbsGbKVTVkqJXoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YnvE5NGsFa1U55zjXeouhV2q5wHF3w3krE2Cvd/pgn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials-adf/deploying.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials-adf/deploying.html",
+          "hash": "TCB6LlORYyg5/Xq8vuMS5eXGjtXhElNpai8iezHNQGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials-adf/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials-adf/intro.html",
+          "hash": "rQycIVcsAf9KYbdiEjAQSXA8pQsk/pVoL9oCn2HvXF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials-sql/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials-sql/intro.html",
+          "hash": "pk5PzDjEtS2vN8UOwtNJSyiDFhzuczT4ZkGrquJMgk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials-ssis/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials-ssis/intro.html",
+          "hash": "HdnAIuXNalMOF7+mlDoXSYqyqXzIRN1Kb7QjXF6zt0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials-ssis/prerequisites.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials-ssis/prerequisites.html",
+          "hash": "81CCknnDSl7A4bsCkh3wmazYUXZfSDNQDAjN45QrLTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/intro.html",
+          "hash": "Ni/2M1JQf3RnRh+nU4c9GvuLnc4QRTsvtPAz9c9SESs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/project-configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/project-configuration.html",
+          "hash": "0s5qZd3MuU//3slEbJrr1gYB5DXIH0B8R7v3c8JBe08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/toc.html",
+          "hash": "Ru6co7rWo0vWfaIxJWqHGJsLUH+eEo+fcWWaOE2vt/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 161,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
