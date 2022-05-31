@@ -16,24 +16,24 @@ jobs:
       DOTNET_CLI_TELEMETRY_OPTOUT: true
     steps:
       - name: Checkout main repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false # Required for JamesIves/github-pages-deploy-action
           path: main
       - name: Checkout daf-core-sql repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: data-automation-framework/daf-core-sql
           path: daf-core-sql
       - name: Checkout daf-core-ssis repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: data-automation-framework/daf-core-ssis
           path: daf-core-ssis
       - name: Checkout daf-core-adf repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Avoid shallow clone so nbgv can do its work.
           repository: data-automation-framework/daf-core-adf
@@ -94,7 +94,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false # Required for JamesIves/github-pages-deploy-action
       - uses: actions/download-artifact@v2
