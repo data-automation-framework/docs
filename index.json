@@ -1,0 +1,847 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "Daf - Data Automation | Daf",
+    "keywords": ""
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Activity.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Activity.html",
+    "title": "Class Activity | Daf",
+    "keywords": "Class Activity An Azure Data Factory activity. Inheritance System.Object Activity AzureFunction Copy ExecutePipeline IfCondition Lookup SetVariable SqlServerStoredProcedure Until Wait Web Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public abstract class Activity : object Properties | Improve this Doc View Source Dependencies Collection of all objects that this activity depends on. Declaration public List<Dependency> Dependencies { get; set; } Property Value Type Description List < Dependency > | Improve this Doc View Source Inputs Declaration public List<Input> Inputs { get; set; } Property Value Type Description List < Input > | Improve this Doc View Source Name The name of the activity. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Outputs Declaration public List<Output> Outputs { get; set; } Property Value Type Description List < Output > | Improve this Doc View Source WaitTimeInSeconds Wait time in seconds. Declaration public int WaitTimeInSeconds { get; set; } Property Value Type Description System.Int32"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.ActivityTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.ActivityTypeEnum.html",
+    "title": "Enum ActivityTypeEnum | Daf",
+    "keywords": "Enum ActivityTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum ActivityTypeEnum : int Fields Name Description AzureFunctionActivity Copy ExecutePipeline IfCondition Lookup SetVariable SqlServerStoredProcedure Until Wait WebActivity"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AdditionalHeader.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AdditionalHeader.html",
+    "title": "Class AdditionalHeader | Daf",
+    "keywords": "Class AdditionalHeader Element in list of additional HTTP headers for the Rest dataset. Inheritance System.Object AdditionalHeader Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class AdditionalHeader : object Properties | Improve this Doc View Source Name The name of the header. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Value The value of the header. Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Adf.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Adf.html",
+    "title": "Class Adf | Daf",
+    "keywords": "Class Adf Root node for Azure Data Factory projects. Inheritance System.Object Adf Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Adf : object Properties | Improve this Doc View Source AzureDataFactoryProjects Collection of the Azure Data Factory projects Declaration public List<AzureDataFactoryProject> AzureDataFactoryProjects { get; set; } Property Value Type Description List < AzureDataFactoryProject >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AuthenticationTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AuthenticationTypeEnum.html",
+    "title": "Enum AuthenticationTypeEnum | Daf",
+    "keywords": "Enum AuthenticationTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum AuthenticationTypeEnum : int Fields Name Description Anonymous Basic"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AzureDataFactoryProject.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AzureDataFactoryProject.html",
+    "title": "Class AzureDataFactoryProject | Daf",
+    "keywords": "Class AzureDataFactoryProject An Azure Data Factory Project. Inheritance System.Object AzureDataFactoryProject Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class AzureDataFactoryProject : object Properties | Improve this Doc View Source DataSets Collection of all dataset definitions in the project. Declaration public List<DataSet> DataSets { get; set; } Property Value Type Description List < DataSet > | Improve this Doc View Source LinkedServices Collection of all linked service definitions in the project. Declaration public List<LinkedService> LinkedServices { get; set; } Property Value Type Description List < LinkedService > | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Pipelines Collection of all pipeline definitions in the project. Declaration public List<Pipeline> Pipelines { get; set; } Property Value Type Description List < Pipeline >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AzureFunction.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AzureFunction.html",
+    "title": "Class AzureFunction | Daf",
+    "keywords": "Class AzureFunction An Azure Function Activity. Inheritance System.Object Activity AzureFunction Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class AzureFunction : Activity Properties | Improve this Doc View Source Body The body of the HTTP request. Declaration public string Body { get; set; } Property Value Type Description System.String | Improve this Doc View Source FunctionName The name of the function to run. Declaration public string FunctionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source LinkedService Reference to the linked service containing the function app. Declaration public string LinkedService { get; set; } Property Value Type Description System.String | Improve this Doc View Source Method The HTTP method to call function with. Declaration public HttpMethodTypeEnum Method { get; set; } Property Value Type Description HttpMethodTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumn.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumn.html",
+    "title": "Class AzureSqlTableColumn | Daf",
+    "keywords": "Class AzureSqlTableColumn Element in collection of columns in the Azure SQL table. Inheritance System.Object AzureSqlTableColumn Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class AzureSqlTableColumn : object Properties | Improve this Doc View Source Name The name of the column. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Precision The precision of the type of the column. Declaration public string Precision { get; set; } Property Value Type Description System.String | Improve this Doc View Source Scale The scale of the type of the column. Declaration public string Scale { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the column. Declaration public AzureSqlTableColumnTypeEnum Type { get; set; } Property Value Type Description AzureSqlTableColumnTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumnTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableColumnTypeEnum.html",
+    "title": "Enum AzureSqlTableColumnTypeEnum | Daf",
+    "keywords": "Enum AzureSqlTableColumnTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum AzureSqlTableColumnTypeEnum : int Fields Name Description bigint binary bit date datetime2 datetimeoffset decimal double float int nvarchar smallint tinyint uniqueidentifier varchar"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableSchema.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.AzureSqlTableSchema.html",
+    "title": "Class AzureSqlTableSchema | Daf",
+    "keywords": "Class AzureSqlTableSchema Schema of the Azure SQL table. Inheritance System.Object AzureSqlTableSchema Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class AzureSqlTableSchema : object Properties | Improve this Doc View Source AzureSqlTableColumns Collection of columns in the Azure SQL table. Declaration public List<AzureSqlTableColumn> AzureSqlTableColumns { get; set; } Property Value Type Description List < AzureSqlTableColumn >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Container.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Container.html",
+    "title": "Class Container | Daf",
+    "keywords": "Class Container The container to which the location refers. Inheritance System.Object Container Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Container : object Properties | Improve this Doc View Source FolderPath The folder path of the file inside the container. Declaration public string FolderPath { get; set; } Property Value Type Description System.String | Improve this Doc View Source Name The name of the container. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Copy.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Copy.html",
+    "title": "Class Copy | Daf",
+    "keywords": "Class Copy Inheritance System.Object Activity Copy Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Copy : Activity Properties | Improve this Doc View Source Sink Declaration public Sink Sink { get; set; } Property Value Type Description Sink | Improve this Doc View Source Source Declaration public Source Source { get; set; } Property Value Type Description Source | Improve this Doc View Source Translator Declaration public Translator Translator { get; set; } Property Value Type Description Translator"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DataSet.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DataSet.html",
+    "title": "Class DataSet | Daf",
+    "keywords": "Class DataSet Element in collection of all dataset definitions in the project. Inheritance System.Object DataSet Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class DataSet : object Properties | Improve this Doc View Source AzureSqlTableSchema Schema of the Azure SQL table. Declaration public AzureSqlTableSchema AzureSqlTableSchema { get; set; } Property Value Type Description AzureSqlTableSchema | Improve this Doc View Source Encoding The encoding of the file that the dataset refers to. Valid values are: \"UTF-7\", \"UTF-8\", \"UTF-16\", \"UTF-16BE\", \"WINDOWS-1252\" Declaration public string Encoding { get; set; } Property Value Type Description System.String | Improve this Doc View Source JsonSchema Schema of the json data. Declaration public JsonSchema JsonSchema { get; set; } Property Value Type Description JsonSchema | Improve this Doc View Source LinkedService The name of the linked service from which this dataset originates. Declaration public string LinkedService { get; set; } Property Value Type Description System.String | Improve this Doc View Source Location The location of the dataset. Declaration public Location Location { get; set; } Property Value Type Description Location | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Parameters Collection of all parameters for this dataset. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter > | Improve this Doc View Source RelativeUrl The relative URL of the Rest endpoint. Declaration public string RelativeUrl { get; set; } Property Value Type Description System.String | Improve this Doc View Source Schema The database schema of the dataset. Declaration public string Schema { get; set; } Property Value Type Description System.String | Improve this Doc View Source Table The database table of the dataset. Declaration public string Table { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the dataset. Declaration public DataSetTypeEnum Type { get; set; } Property Value Type Description DataSetTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DataSetTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DataSetTypeEnum.html",
+    "title": "Enum DataSetTypeEnum | Daf",
+    "keywords": "Enum DataSetTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum DataSetTypeEnum : int Fields Name Description AzureSqlTable Json OdbcTable RestResource"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DataSinkTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DataSinkTypeEnum.html",
+    "title": "Enum DataSinkTypeEnum | Daf",
+    "keywords": "Enum DataSinkTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum DataSinkTypeEnum : int Fields Name Description AzureSqlSink JsonSink"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DataSourceTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DataSourceTypeEnum.html",
+    "title": "Enum DataSourceTypeEnum | Daf",
+    "keywords": "Enum DataSourceTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum DataSourceTypeEnum : int Fields Name Description AzureSqlSource JsonSource OdbcSource RestSource"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Dependency.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Dependency.html",
+    "title": "Class Dependency | Daf",
+    "keywords": "Class Dependency Element in collection of all objects that this activity depends on. Inheritance System.Object Dependency Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Dependency : object Properties | Improve this Doc View Source DependencyConditions Collection of all conditions that this dependency requires to be fulfilled. Declaration public List<DependencyCondition> DependencyConditions { get; set; } Property Value Type Description List < DependencyCondition > | Improve this Doc View Source DependentOnActivity Activity that this object is dependent on. Declaration public string DependentOnActivity { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DependencyCondition.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyCondition.html",
+    "title": "Class DependencyCondition | Daf",
+    "keywords": "Class DependencyCondition Element in collection of all conditions that this dependency requires to be fulfilled. Inheritance System.Object DependencyCondition Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class DependencyCondition : object Properties | Improve this Doc View Source Type The type of dependency condition. Declaration public DependencyConditionTypeEnum Type { get; set; } Property Value Type Description DependencyConditionTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.DependencyConditionTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.DependencyConditionTypeEnum.html",
+    "title": "Enum DependencyConditionTypeEnum | Daf",
+    "keywords": "Enum DependencyConditionTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum DependencyConditionTypeEnum : int Fields Name Description Completed Failed Skipped Succeeded"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.ExecutePipeline.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.ExecutePipeline.html",
+    "title": "Class ExecutePipeline | Daf",
+    "keywords": "Class ExecutePipeline Inheritance System.Object Activity ExecutePipeline Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class ExecutePipeline : Activity Properties | Improve this Doc View Source Parameters Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter > | Improve this Doc View Source PipelineName Declaration public string PipelineName { get; set; } Property Value Type Description System.String | Improve this Doc View Source WaitOnCompletion Declaration public bool WaitOnCompletion { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.FileName.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.FileName.html",
+    "title": "Class FileName | Daf",
+    "keywords": "Class FileName The name of the file. Inheritance System.Object FileName Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class FileName : object Properties | Improve this Doc View Source Type The type of the file name value. Declaration public ValueTypeEnum? Type { get; set; } Property Value Type Description System.Nullable < ValueTypeEnum > | Improve this Doc View Source Value The name of the file, either a raw string or Azure Data Factory dynamic content expression. Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.html",
+    "title": "Namespace Daf.Core.Adf.IonStructure | Daf",
+    "keywords": "Namespace Daf.Core.Adf.IonStructure Classes Activity An Azure Data Factory activity. AdditionalHeader Element in list of additional HTTP headers for the Rest dataset. Adf Root node for Azure Data Factory projects. AzureDataFactoryProject An Azure Data Factory Project. AzureFunction An Azure Function Activity. AzureSqlTableColumn Element in collection of columns in the Azure SQL table. AzureSqlTableSchema Schema of the Azure SQL table. Container The container to which the location refers. Copy DataSet Element in collection of all dataset definitions in the project. Dependency Element in collection of all objects that this activity depends on. DependencyCondition Element in collection of all conditions that this dependency requires to be fulfilled. ExecutePipeline FileName The name of the file. IfCondition Input Element in collection of all the inputs of this activity. JsonItem Element in list of columns unwrapped from Json. JsonSchema Schema of the json data. LinkedService Element in collection of all linked service definitions in the project. Location The location of the dataset. Lookup LookupDataSet DataSet to use for the lookup. Mapping Element in list containing all mappings between sink and source. MappingSink The sink column in this mapping. MappingSource The source column in this mapping. Output Element in collection of all the outputs of this activity. PaginationRule Element in list of pagination rules for the Rest dataset. Parameter Element in collection of all pipeline parameters. Pipeline Element in collection of all pipeline definitions in the project. Property The properties of the pipeline. SetVariable Sink A sink. Source A source. SqlServerStoredProcedure StoredProcedureParameter Element in list of parameters for the stored procedure. StoreSettings The settings of accessing the store related to this source. Translator The type of the translator. Until Variable Element in collection of all pipeline variables. Wait Web WildcardFileName The wildcard filename to use when searching for files through the store. Enums ActivityTypeEnum AuthenticationTypeEnum AzureSqlTableColumnTypeEnum DataSetTypeEnum DataSinkTypeEnum DataSourceTypeEnum DependencyConditionTypeEnum HttpMethodTypeEnum JsonItemTypeEnum LinkedServiceTypeEnum LocationTypeEnum MappingSinkTypeEnum PipelineParameterTypeEnum PipelineVariableTypeEnum StoredProcedureParameterTypeEnum StoreSettingsTypeEnum TranslatorTypeEnum ValueTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.HttpMethodTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.HttpMethodTypeEnum.html",
+    "title": "Enum HttpMethodTypeEnum | Daf",
+    "keywords": "Enum HttpMethodTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum HttpMethodTypeEnum : int Fields Name Description GET POST"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.IfCondition.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.IfCondition.html",
+    "title": "Class IfCondition | Daf",
+    "keywords": "Class IfCondition Inheritance System.Object Activity IfCondition Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class IfCondition : Activity Properties | Improve this Doc View Source Expression Declaration public string Expression { get; set; } Property Value Type Description System.String | Improve this Doc View Source IfFalseActivities Declaration public List<Activity> IfFalseActivities { get; set; } Property Value Type Description List < Activity > | Improve this Doc View Source IfTrueActivities Declaration public List<Activity> IfTrueActivities { get; set; } Property Value Type Description List < Activity >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Input.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Input.html",
+    "title": "Class Input | Daf",
+    "keywords": "Class Input Element in collection of all the inputs of this activity. Inheritance System.Object Input Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Input : object Properties | Improve this Doc View Source Name Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Parameters List of parameters to inject into input expressions. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.JsonItem.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItem.html",
+    "title": "Class JsonItem | Daf",
+    "keywords": "Class JsonItem Element in list of columns unwrapped from Json. Inheritance System.Object JsonItem Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class JsonItem : object Properties | Improve this Doc View Source Name The name of the column. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the column. Declaration public JsonItemTypeEnum Type { get; set; } Property Value Type Description JsonItemTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.JsonItemTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.JsonItemTypeEnum.html",
+    "title": "Enum JsonItemTypeEnum | Daf",
+    "keywords": "Enum JsonItemTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum JsonItemTypeEnum : int Fields Name Description boolean float integer string"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.JsonSchema.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.JsonSchema.html",
+    "title": "Class JsonSchema | Daf",
+    "keywords": "Class JsonSchema Schema of the json data. Inheritance System.Object JsonSchema Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class JsonSchema : object Properties | Improve this Doc View Source JsonItems List of columns unwrapped from Json. Declaration public List<JsonItem> JsonItems { get; set; } Property Value Type Description List < JsonItem > | Improve this Doc View Source Root The root of the Json from which other columns are unwrapped. Declaration public string Root { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.LinkedService.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedService.html",
+    "title": "Class LinkedService | Daf",
+    "keywords": "Class LinkedService Element in collection of all linked service definitions in the project. Inheritance System.Object LinkedService Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class LinkedService : object Properties | Improve this Doc View Source AuthenticationType The authentication type. Declaration public AuthenticationTypeEnum? AuthenticationType { get; set; } Property Value Type Description System.Nullable < AuthenticationTypeEnum > | Improve this Doc View Source ConnectionString The connection string for accessing the linked service. Declaration public string ConnectionString { get; set; } Property Value Type Description System.String | Improve this Doc View Source EnableServerCertificateValidation Whether server certificate validation should be enabled or not for this linked service. Declaration public bool? EnableServerCertificateValidation { get; set; } Property Value Type Description System.Nullable < System.Boolean > | Improve this Doc View Source EncryptedCredential Encrypted credential for accessing the linked service. Declaration public string EncryptedCredential { get; set; } Property Value Type Description System.String | Improve this Doc View Source FunctionAppUrl URL for the function app containing the Azure Functions of the linked service. Declaration public string FunctionAppUrl { get; set; } Property Value Type Description System.String | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the linked service. Declaration public LinkedServiceTypeEnum Type { get; set; } Property Value Type Description LinkedServiceTypeEnum | Improve this Doc View Source Url The URL containing the endpoints for this linked service. Declaration public string Url { get; set; } Property Value Type Description System.String | Improve this Doc View Source UserName The user name for accessing the linked service. Declaration public string UserName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.LinkedServiceTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.LinkedServiceTypeEnum.html",
+    "title": "Enum LinkedServiceTypeEnum | Daf",
+    "keywords": "Enum LinkedServiceTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum LinkedServiceTypeEnum : int Fields Name Description AzureBlobStorage AzureFunction AzureSqlDatabase RestService"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Location.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Location.html",
+    "title": "Class Location | Daf",
+    "keywords": "Class Location The location of the dataset. Inheritance System.Object Location Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Location : object Properties | Improve this Doc View Source Container The container to which the location refers. Declaration public Container Container { get; set; } Property Value Type Description Container | Improve this Doc View Source FileName The name of the file. Declaration public FileName FileName { get; set; } Property Value Type Description FileName | Improve this Doc View Source Type The Azure Blob Storage container to which the location refers. Declaration public LocationTypeEnum Type { get; set; } Property Value Type Description LocationTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.LocationTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.LocationTypeEnum.html",
+    "title": "Enum LocationTypeEnum | Daf",
+    "keywords": "Enum LocationTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum LocationTypeEnum : int Fields Name Description AzureBlobStorageLocation"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Lookup.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Lookup.html",
+    "title": "Class Lookup | Daf",
+    "keywords": "Class Lookup Inheritance System.Object Activity Lookup Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Lookup : Activity Properties | Improve this Doc View Source LookupDataSet DataSet to use for the lookup. Declaration public LookupDataSet LookupDataSet { get; set; } Property Value Type Description LookupDataSet | Improve this Doc View Source Source A source. Declaration public Source Source { get; set; } Property Value Type Description Source"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.LookupDataSet.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.LookupDataSet.html",
+    "title": "Class LookupDataSet | Daf",
+    "keywords": "Class LookupDataSet DataSet to use for the lookup. Inheritance System.Object LookupDataSet Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class LookupDataSet : object Properties | Improve this Doc View Source Name The name of the dataset. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Parameters The list of parameters to inject in dataset expressions. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Mapping.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Mapping.html",
+    "title": "Class Mapping | Daf",
+    "keywords": "Class Mapping Element in list containing all mappings between sink and source. Inheritance System.Object Mapping Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Mapping : object Properties | Improve this Doc View Source MappingSink The sink column in this mapping. Declaration public MappingSink MappingSink { get; set; } Property Value Type Description MappingSink | Improve this Doc View Source MappingSource The source column in this mapping. Declaration public MappingSource MappingSource { get; set; } Property Value Type Description MappingSource"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.MappingSink.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSink.html",
+    "title": "Class MappingSink | Daf",
+    "keywords": "Class MappingSink The sink column in this mapping. Inheritance System.Object MappingSink Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class MappingSink : object Properties | Improve this Doc View Source Name The name of the column in the sink. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the column in the sink. Declaration public MappingSinkTypeEnum Type { get; set; } Property Value Type Description MappingSinkTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.MappingSinkTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSinkTypeEnum.html",
+    "title": "Enum MappingSinkTypeEnum | Daf",
+    "keywords": "Enum MappingSinkTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum MappingSinkTypeEnum : int Fields Name Description String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.MappingSource.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.MappingSource.html",
+    "title": "Class MappingSource | Daf",
+    "keywords": "Class MappingSource The source column in this mapping. Inheritance System.Object MappingSource Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class MappingSource : object Properties | Improve this Doc View Source Path The path of the column in the source relative to the collection reference. Declaration public string Path { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Output.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Output.html",
+    "title": "Class Output | Daf",
+    "keywords": "Class Output Element in collection of all the outputs of this activity. Inheritance System.Object Output Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Output : object Properties | Improve this Doc View Source Name Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Parameters List of parameters to inject into output expressions. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.PaginationRule.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.PaginationRule.html",
+    "title": "Class PaginationRule | Daf",
+    "keywords": "Class PaginationRule Element in list of pagination rules for the Rest dataset. Inheritance System.Object PaginationRule Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class PaginationRule : object Properties | Improve this Doc View Source AbsoluteUrl The absolute URL from which the next page of data will be fetched. Declaration public string AbsoluteUrl { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Parameter.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Parameter.html",
+    "title": "Class Parameter | Daf",
+    "keywords": "Class Parameter Element in collection of all pipeline parameters. Inheritance System.Object Parameter Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Parameter : object Properties | Improve this Doc View Source Name The name of the pipeline parameter. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the pipeline parameter. Declaration public PipelineParameterTypeEnum Type { get; set; } Property Value Type Description PipelineParameterTypeEnum | Improve this Doc View Source Value The value of the parameter. Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Pipeline.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Pipeline.html",
+    "title": "Class Pipeline | Daf",
+    "keywords": "Class Pipeline Element in collection of all pipeline definitions in the project. Inheritance System.Object Pipeline Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Pipeline : object Properties | Improve this Doc View Source Name The name of the pipeline. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source PipelineProperties The properties of the pipeline. Declaration public Property PipelineProperties { get; set; } Property Value Type Description Property"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.PipelineParameterTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineParameterTypeEnum.html",
+    "title": "Enum PipelineParameterTypeEnum | Daf",
+    "keywords": "Enum PipelineParameterTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum PipelineParameterTypeEnum : int Fields Name Description Array Bool Expression Float Int Object SecureString String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.PipelineVariableTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.PipelineVariableTypeEnum.html",
+    "title": "Enum PipelineVariableTypeEnum | Daf",
+    "keywords": "Enum PipelineVariableTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum PipelineVariableTypeEnum : int Fields Name Description Array Boolean String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Property.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Property.html",
+    "title": "Class Property | Daf",
+    "keywords": "Class Property The properties of the pipeline. Inheritance System.Object Property Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Property : object Properties | Improve this Doc View Source Activities Collection of all activity definitions in the properties. Declaration public List<Activity> Activities { get; set; } Property Value Type Description List < Activity > | Improve this Doc View Source Parameters Collection of all pipeline parameters. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter > | Improve this Doc View Source Variables Collection of all pipeline variables. Declaration public List<Variable> Variables { get; set; } Property Value Type Description List < Variable >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.SetVariable.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.SetVariable.html",
+    "title": "Class SetVariable | Daf",
+    "keywords": "Class SetVariable Inheritance System.Object Activity SetVariable Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class SetVariable : Activity Properties | Improve this Doc View Source Value The value to set the variable to. Declaration public string Value { get; set; } Property Value Type Description System.String | Improve this Doc View Source Variable Name of the variable to set. Declaration public string Variable { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Sink.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Sink.html",
+    "title": "Class Sink | Daf",
+    "keywords": "Class Sink A sink. Inheritance System.Object Sink Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Sink : object Properties | Improve this Doc View Source Type The type of the sink. Declaration public DataSinkTypeEnum Type { get; set; } Property Value Type Description DataSinkTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Source.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Source.html",
+    "title": "Class Source | Daf",
+    "keywords": "Class Source A source. Inheritance System.Object Source Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Source : object Properties | Improve this Doc View Source AdditionalHeaders List of additional HTTP headers for the Rest dataset. Declaration public List<AdditionalHeader> AdditionalHeaders { get; set; } Property Value Type Description List < AdditionalHeader > | Improve this Doc View Source PaginationRules List of pagination rules for the Rest dataset. Declaration public List<PaginationRule> PaginationRules { get; set; } Property Value Type Description List < PaginationRule > | Improve this Doc View Source SqlQuery SQL query of which the result set will be used as the source. Declaration public string SqlQuery { get; set; } Property Value Type Description System.String | Improve this Doc View Source StoreSettings The settings of accessing the store related to this source. Declaration public StoreSettings StoreSettings { get; set; } Property Value Type Description StoreSettings | Improve this Doc View Source Type The type of the source. Declaration public DataSourceTypeEnum Type { get; set; } Property Value Type Description DataSourceTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.SqlServerStoredProcedure.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.SqlServerStoredProcedure.html",
+    "title": "Class SqlServerStoredProcedure | Daf",
+    "keywords": "Class SqlServerStoredProcedure Inheritance System.Object Activity SqlServerStoredProcedure Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class SqlServerStoredProcedure : Activity Properties | Improve this Doc View Source LinkedService Declaration public string LinkedService { get; set; } Property Value Type Description System.String | Improve this Doc View Source ProcedureName Declaration public string ProcedureName { get; set; } Property Value Type Description System.String | Improve this Doc View Source StoredProcedureParameters Declaration public List<StoredProcedureParameter> StoredProcedureParameters { get; set; } Property Value Type Description List < StoredProcedureParameter >"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameter.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameter.html",
+    "title": "Class StoredProcedureParameter | Daf",
+    "keywords": "Class StoredProcedureParameter Element in list of parameters for the stored procedure. Inheritance System.Object StoredProcedureParameter Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class StoredProcedureParameter : object Properties | Improve this Doc View Source Name The name of the parameter. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the parameter. Declaration public StoredProcedureParameterTypeEnum Type { get; set; } Property Value Type Description StoredProcedureParameterTypeEnum | Improve this Doc View Source Value The value of the parameter. Declaration public string Value { get; set; } Property Value Type Description System.String | Improve this Doc View Source ValueType The Azure Data Factory type of the value of the parameter. Declaration public ValueTypeEnum ValueType { get; set; } Property Value Type Description ValueTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameterTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.StoredProcedureParameterTypeEnum.html",
+    "title": "Enum StoredProcedureParameterTypeEnum | Daf",
+    "keywords": "Enum StoredProcedureParameterTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum StoredProcedureParameterTypeEnum : int Fields Name Description DateTime Int32 Int64 String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettings.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettings.html",
+    "title": "Class StoreSettings | Daf",
+    "keywords": "Class StoreSettings The settings of accessing the store related to this source. Inheritance System.Object StoreSettings Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class StoreSettings : object Properties | Improve this Doc View Source Recursive Whether or not to recurse through the store. Declaration public bool Recursive { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Type The settings of accessing the store related to this source. Declaration public StoreSettingsTypeEnum Type { get; set; } Property Value Type Description StoreSettingsTypeEnum | Improve this Doc View Source WildcardFileName The wildcard filename to use when searching for files through the store. Declaration public WildcardFileName WildcardFileName { get; set; } Property Value Type Description WildcardFileName"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettingsTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.StoreSettingsTypeEnum.html",
+    "title": "Enum StoreSettingsTypeEnum | Daf",
+    "keywords": "Enum StoreSettingsTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum StoreSettingsTypeEnum : int Fields Name Description AzureBlobStorageReadSettings"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Translator.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Translator.html",
+    "title": "Class Translator | Daf",
+    "keywords": "Class Translator The type of the translator. Inheritance System.Object Translator Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Translator : object Properties | Improve this Doc View Source CollectionReference Reference relative to which source columns are specified. Declaration public string CollectionReference { get; set; } Property Value Type Description System.String | Improve this Doc View Source Mappings List containing all mappings between sink and source. Declaration public List<Mapping> Mappings { get; set; } Property Value Type Description List < Mapping > | Improve this Doc View Source Type The type of the translator. Declaration public TranslatorTypeEnum Type { get; set; } Property Value Type Description TranslatorTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.TranslatorTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.TranslatorTypeEnum.html",
+    "title": "Enum TranslatorTypeEnum | Daf",
+    "keywords": "Enum TranslatorTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum TranslatorTypeEnum : int Fields Name Description TabularTranslator"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Until.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Until.html",
+    "title": "Class Until | Daf",
+    "keywords": "Class Until Inheritance System.Object Activity Until Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Until : Activity Properties | Improve this Doc View Source Activities Activities inside the until activity. Declaration public List<Activity> Activities { get; set; } Property Value Type Description List < Activity > | Improve this Doc View Source Expression Loop until this Azure Data Factory expression is true. Declaration public string Expression { get; set; } Property Value Type Description System.String | Improve this Doc View Source TimeOut Time until the loop terminates automatically, in d.hh:mm:ss format. Declaration public string TimeOut { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.ValueTypeEnum.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.ValueTypeEnum.html",
+    "title": "Enum ValueTypeEnum | Daf",
+    "keywords": "Enum ValueTypeEnum Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public enum ValueTypeEnum : int Fields Name Description Default Expression"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Variable.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Variable.html",
+    "title": "Class Variable | Daf",
+    "keywords": "Class Variable Element in collection of all pipeline variables. Inheritance System.Object Variable Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Variable : object Properties | Improve this Doc View Source DefaultValue The default value of the pipeline variable. Declaration public string DefaultValue { get; set; } Property Value Type Description System.String | Improve this Doc View Source Name The name of the pipeline variable. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The type of the pipeline variable. Declaration public PipelineVariableTypeEnum Type { get; set; } Property Value Type Description PipelineVariableTypeEnum"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Wait.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Wait.html",
+    "title": "Class Wait | Daf",
+    "keywords": "Class Wait Inheritance System.Object Activity Wait Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Wait : Activity"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.Web.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.Web.html",
+    "title": "Class Web | Daf",
+    "keywords": "Class Web Inheritance System.Object Activity Web Inherited Members Activity.Dependencies Activity.WaitTimeInSeconds Activity.Name Activity.Inputs Activity.Outputs Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class Web : Activity Properties | Improve this Doc View Source Body The body of the HTTP request. Declaration public string Body { get; set; } Property Value Type Description System.String | Improve this Doc View Source Method The HTTP method to utilize. Declaration public HttpMethodTypeEnum Method { get; set; } Property Value Type Description HttpMethodTypeEnum | Improve this Doc View Source Url The URL to send the HTTP request to. Declaration public string Url { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-adf/Daf.Core.Adf.IonStructure.WildcardFileName.html": {
+    "href": "plugin-adf/Daf.Core.Adf.IonStructure.WildcardFileName.html",
+    "title": "Class WildcardFileName | Daf",
+    "keywords": "Class WildcardFileName The wildcard filename to use when searching for files through the store. Inheritance System.Object WildcardFileName Namespace : Daf.Core.Adf.IonStructure Assembly : Daf.Core.Adf.dll Syntax public class WildcardFileName : object Properties | Improve this Doc View Source WildcardFileNameValue The wildcard filename to use when searching for files through the store. Declaration public string WildcardFileNameValue { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.BusinessKeyColumn.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.BusinessKeyColumn.html",
+    "title": "Class BusinessKeyColumn | Daf",
+    "keywords": "Class BusinessKeyColumn The business key columns (unique constraint) of the target table. Inheritance System.Object BusinessKeyColumn Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class BusinessKeyColumn : object Properties | Improve this Doc View Source Name The (or one of the) business key column of the target table. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.ColumnReferenceHint.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.ColumnReferenceHint.html",
+    "title": "Class ColumnReferenceHint | Daf",
+    "keywords": "Class ColumnReferenceHint Inheritance System.Object ColumnReferenceHint Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class ColumnReferenceHint : object Properties | Improve this Doc View Source DataType The column's data type. Declaration public DataTypeEnum DataType { get; set; } Property Value Type Description DataTypeEnum | Improve this Doc View Source Length The length of this column's data type. This only applies to data type definitions that accept a length parameter, such as String and Binary types. Use -1 for MAX length. Declaration public int Length { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Precision The precision of this column's data type. This only applies to data type definitions that accept a precision parameter, such as Decimal. Declaration public int Precision { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Scale The scale of this column's data type. This only applies to data type definitions that accept a scale parameter, such as Decimal. Declaration public int Scale { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source SchemaName The name of the schema that the table containing the referenced column belongs to. Declaration public string SchemaName { get; set; } Property Value Type Description System.String | Improve this Doc View Source TableName The name of the table containing the referenced column. Declaration public string TableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.DacpacDependency.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.DacpacDependency.html",
+    "title": "Class DacpacDependency | Daf",
+    "keywords": "Class DacpacDependency Inheritance System.Object DatabaseDependencyBase DacpacDependency Inherited Members DatabaseDependencyBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class DacpacDependency : DatabaseDependencyBase"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Database.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Database.html",
+    "title": "Class Database | Daf",
+    "keywords": "Class Database Element in collection of all database definitions in the project. Inheritance System.Object Database Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Database : object Properties | Improve this Doc View Source CreateProject Whether a project file (.sqlproj) should be generated for this database. Declaration public bool CreateProject { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source DatabaseIncludes Collection of all the paths containing SQL objects to be included in the .sqlproj file. Declaration public List<Folder> DatabaseIncludes { get; set; } Property Value Type Description List < Folder > | Improve this Doc View Source Dependencies Collection of all database dependencies. Declaration public List<DatabaseDependencyBase> Dependencies { get; set; } Property Value Type Description List < DatabaseDependencyBase > | Improve this Doc View Source Functions Collection of all function definitions in the project. Declaration public List<Function> Functions { get; set; } Property Value Type Description List < Function > | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Procedures Collection of all procedure definitions in the project. Declaration public List<Procedure> Procedures { get; set; } Property Value Type Description List < Procedure > | Improve this Doc View Source SchemaCompare The database's schema compare (.scmp) file. Declaration public SchemaCompare SchemaCompare { get; set; } Property Value Type Description SchemaCompare | Improve this Doc View Source Schemas Collection of all database schema definitions in the project. Declaration public List<Schema> Schemas { get; set; } Property Value Type Description List < Schema > | Improve this Doc View Source Tables Collection of all table definitions in the project. Declaration public List<Table> Tables { get; set; } Property Value Type Description List < Table > | Improve this Doc View Source TargetSqlServerPlatform The target SQL Server platform. Declaration public TargetSqlServerPlatformEnum TargetSqlServerPlatform { get; set; } Property Value Type Description TargetSqlServerPlatformEnum | Improve this Doc View Source TargetSqlServerVersion The target SQL Server version, if applicable. Declaration public TargetSqlServerVersionEnum TargetSqlServerVersion { get; set; } Property Value Type Description TargetSqlServerVersionEnum | Improve this Doc View Source TreatTSqlWarningsAsErrors Whether T-SQL warnings should be treated as errors when building the SQL project. Declaration public bool TreatTSqlWarningsAsErrors { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Views Collection of all view definitions in the project. Declaration public List<View> Views { get; set; } Property Value Type Description List < View >"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependency.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependency.html",
+    "title": "Class DatabaseDependency | Daf",
+    "keywords": "Class DatabaseDependency Inheritance System.Object DatabaseDependencyBase DatabaseDependency Inherited Members DatabaseDependencyBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class DatabaseDependency : DatabaseDependencyBase"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependencyBase.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.DatabaseDependencyBase.html",
+    "title": "Class DatabaseDependencyBase | Daf",
+    "keywords": "Class DatabaseDependencyBase Inheritance System.Object DatabaseDependencyBase DacpacDependency DatabaseDependency SystemDependency Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public abstract class DatabaseDependencyBase : object Properties | Improve this Doc View Source Name Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.DataTypeEnum.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.DataTypeEnum.html",
+    "title": "Enum DataTypeEnum | Daf",
+    "keywords": "Enum DataTypeEnum Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public enum DataTypeEnum : int Fields Name Description AnsiString AnsiStringFixedLength Binary Boolean Byte Currency Date DateTime DateTime2 DateTimeOffset Decimal Double Guid Int16 Int32 Int64 Object SByte Single String StringFixedLength Time UInt16 UInt32 UInt64 VarNumeric Xml"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Folder.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Folder.html",
+    "title": "Class Folder | Daf",
+    "keywords": "Class Folder Element in collection of all the paths containing SQL objects to be included in the .sqlproj file. Inheritance System.Object Folder Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Folder : object Properties | Improve this Doc View Source Path The file path of the folder to include. Declaration public string Path { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.ForeignKey.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.ForeignKey.html",
+    "title": "Class ForeignKey | Daf",
+    "keywords": "Class ForeignKey Inheritance System.Object TableColumnBase ForeignKey Inherited Members TableColumnBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class ForeignKey : TableColumnBase Properties | Improve this Doc View Source ColumnName The name of the referenced foreign column. Declaration public string ColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ColumnReferenceHint Hint info for the column being referenced. This is used for references to columns defined outside Daf.Core. Declaration public ColumnReferenceHint ColumnReferenceHint { get; set; } Property Value Type Description ColumnReferenceHint | Improve this Doc View Source ForeignKeyConstraintMode Foreign key constraint type. Declaration public string ForeignKeyConstraintMode { get; set; } Property Value Type Description System.String | Improve this Doc View Source IsNullable Whether the column is nullable. Declaration public bool IsNullable { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source SchemaName The name of the schema that the referenced foreign column's table is in. Declaration public string SchemaName { get; set; } Property Value Type Description System.String | Improve this Doc View Source TableName The name of the referenced foreign column's table. Declaration public string TableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Function.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Function.html",
+    "title": "Class Function | Daf",
+    "keywords": "Class Function Element in collection of all function definitions in the project. Inheritance System.Object Object Function Inherited Members Object.Name Object.Schema Object.Statement Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Function : Object"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.html",
+    "title": "Namespace Daf.Core.Sql.IonStructure | Daf",
+    "keywords": "Namespace Daf.Core.Sql.IonStructure Classes BusinessKeyColumn The business key columns (unique constraint) of the target table. ColumnReferenceHint DacpacDependency Database Element in collection of all database definitions in the project. DatabaseDependency DatabaseDependencyBase Folder Element in collection of all the paths containing SQL objects to be included in the .sqlproj file. ForeignKey Function Element in collection of all function definitions in the project. Index Element in collection of table indexes. IndexColumn Element in collection of column references to build the index on. IndexInclude Element in collection of column references to include in the index. MultipleColumnForeignKey Object PrimaryKey Element in collection of table keys. PrimaryKeyColumn Element in collection of key column references. Procedure Element in collection of all procedure definitions in the project. Schema Element in collection of all database schema definitions in the project. SchemaCompare The database's schema compare (.scmp) file. Sql Root node for SQL databases. SqlProject SQL database project. SystemDependency Table Element in collection of all table definitions in the project. TableColumn TableColumnBase Trigger Element in collection of table triggers. View Element in collection of all view definitions in the project. Enums DataTypeEnum SortOrderEnum TableCompressionTypeEnum TargetSqlServerPlatformEnum TargetSqlServerVersionEnum"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Index.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Index.html",
+    "title": "Class Index | Daf",
+    "keywords": "Class Index Element in collection of table indexes. Inheritance System.Object Index Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Index : object Properties | Improve this Doc View Source Clustered Specifies whether the index is clustered. Declaration public bool Clustered { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source CompressionType The type of compression to use. Declaration public TableCompressionTypeEnum CompressionType { get; set; } Property Value Type Description TableCompressionTypeEnum | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source TableIndexColumns Collection of column references to build the index on. Declaration public List<IndexColumn> TableIndexColumns { get; set; } Property Value Type Description List < IndexColumn > | Improve this Doc View Source TableIndexIncludes Collection of column references to include in the index. Declaration public List<IndexInclude> TableIndexIncludes { get; set; } Property Value Type Description List < IndexInclude > | Improve this Doc View Source Unique Specifies whether each index value is unique. Declaration public bool Unique { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.IndexColumn.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.IndexColumn.html",
+    "title": "Class IndexColumn | Daf",
+    "keywords": "Class IndexColumn Element in collection of column references to build the index on. Inheritance System.Object IndexColumn Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class IndexColumn : object Properties | Improve this Doc View Source ColumnName The name of the referenced column. Declaration public string ColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source SortOrder The sort order of the column reference. Declaration public SortOrderEnum SortOrder { get; set; } Property Value Type Description SortOrderEnum"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.IndexInclude.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.IndexInclude.html",
+    "title": "Class IndexInclude | Daf",
+    "keywords": "Class IndexInclude Element in collection of column references to include in the index. Inheritance System.Object IndexInclude Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class IndexInclude : object Properties | Improve this Doc View Source ColumnName The name of the referenced column. Declaration public string ColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source SortOrder The sort order of the column reference. Declaration public SortOrderEnum SortOrder { get; set; } Property Value Type Description SortOrderEnum"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.MultipleColumnForeignKey.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.MultipleColumnForeignKey.html",
+    "title": "Class MultipleColumnForeignKey | Daf",
+    "keywords": "Class MultipleColumnForeignKey Inheritance System.Object TableColumnBase MultipleColumnForeignKey Inherited Members TableColumnBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class MultipleColumnForeignKey : TableColumnBase Properties | Improve this Doc View Source ColumnReferenceHint Hint info for the column being referenced. This is used for references to columns defined outside Daf.Core. Declaration public ColumnReferenceHint ColumnReferenceHint { get; set; } Property Value Type Description ColumnReferenceHint | Improve this Doc View Source ForeignColumnName A foreign column reference. Declaration public string ForeignColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ForeignKeyConstraintMode The type of foreign key constraint. Declaration public string ForeignKeyConstraintMode { get; set; } Property Value Type Description System.String | Improve this Doc View Source IsNullable Whether the column is nullable. Declaration public bool IsNullable { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source MultipleColumnTableReferenceGroupName All multiple column table reference columns that refer to foreign columns must have the same MultipleColumnTableReferenceGroupName. Declaration public string MultipleColumnTableReferenceGroupName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Object.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Object.html",
+    "title": "Class Object | Daf",
+    "keywords": "Class Object Inheritance System.Object Object Function Procedure View Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Object : object Properties | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Schema The name of the schema this object belongs to. Declaration public string Schema { get; set; } Property Value Type Description System.String | Improve this Doc View Source Statement The object's SQL statement. Declaration public string Statement { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKey.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKey.html",
+    "title": "Class PrimaryKey | Daf",
+    "keywords": "Class PrimaryKey Element in collection of table keys. Inheritance System.Object PrimaryKey Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class PrimaryKey : object Properties | Improve this Doc View Source Clustered Whether to cluster on the primary key. Declaration public bool Clustered { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source CompressionType The type of compression the primary key index uses. Declaration public TableCompressionTypeEnum CompressionType { get; set; } Property Value Type Description TableCompressionTypeEnum | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source TablePrimaryKeyColumns Collection of key column references. Declaration public List<PrimaryKeyColumn> TablePrimaryKeyColumns { get; set; } Property Value Type Description List < PrimaryKeyColumn >"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKeyColumn.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.PrimaryKeyColumn.html",
+    "title": "Class PrimaryKeyColumn | Daf",
+    "keywords": "Class PrimaryKeyColumn Element in collection of key column references. Inheritance System.Object PrimaryKeyColumn Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class PrimaryKeyColumn : object Properties | Improve this Doc View Source ColumnName The name of the referenced column. Declaration public string ColumnName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Procedure.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Procedure.html",
+    "title": "Class Procedure | Daf",
+    "keywords": "Class Procedure Element in collection of all procedure definitions in the project. Inheritance System.Object Object Procedure Inherited Members Object.Name Object.Schema Object.Statement Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Procedure : Object"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Schema.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Schema.html",
+    "title": "Class Schema | Daf",
+    "keywords": "Class Schema Element in collection of all database schema definitions in the project. Inheritance System.Object Schema Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Schema : object Properties | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Owner The schema owner. Declaration public string Owner { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.SchemaCompare.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.SchemaCompare.html",
+    "title": "Class SchemaCompare | Daf",
+    "keywords": "Class SchemaCompare The database's schema compare (.scmp) file. Inheritance System.Object SchemaCompare Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class SchemaCompare : object Properties | Improve this Doc View Source ConnectionString The connection string to use. Declaration public string ConnectionString { get; set; } Property Value Type Description System.String | Improve this Doc View Source ExcludeDatabaseRoles Exclude database roles. Declaration public bool ExcludeDatabaseRoles { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeProcedures Exclude stored procedures. Declaration public bool ExcludeProcedures { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeScalarFunctions Exclude scalar functions. Declaration public bool ExcludeScalarFunctions { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeTables Exclude tables. Declaration public bool ExcludeTables { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeTableValuedFunctions Exclude table-valued functions. Declaration public bool ExcludeTableValuedFunctions { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeUsers Exclude users. Declaration public bool ExcludeUsers { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ExcludeViews Exclude views. Declaration public bool ExcludeViews { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.SortOrderEnum.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.SortOrderEnum.html",
+    "title": "Enum SortOrderEnum | Daf",
+    "keywords": "Enum SortOrderEnum Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public enum SortOrderEnum : int Fields Name Description ASC DESC"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Sql.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Sql.html",
+    "title": "Class Sql | Daf",
+    "keywords": "Class Sql Root node for SQL databases. Inheritance System.Object Sql Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Sql : object Properties | Improve this Doc View Source SqlProjects Collection of SQL database projects. Declaration public List<SqlProject> SqlProjects { get; set; } Property Value Type Description List < SqlProject >"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.SqlProject.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.SqlProject.html",
+    "title": "Class SqlProject | Daf",
+    "keywords": "Class SqlProject SQL database project. Inheritance System.Object SqlProject Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class SqlProject : object Properties | Improve this Doc View Source Databases Collection of all database definitions in the project. Declaration public List<Database> Databases { get; set; } Property Value Type Description List < Database > | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.SystemDependency.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.SystemDependency.html",
+    "title": "Class SystemDependency | Daf",
+    "keywords": "Class SystemDependency Inheritance System.Object DatabaseDependencyBase SystemDependency Inherited Members DatabaseDependencyBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class SystemDependency : DatabaseDependencyBase"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Table.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Table.html",
+    "title": "Class Table | Daf",
+    "keywords": "Class Table Element in collection of all table definitions in the project. Inheritance System.Object Table Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Table : object Properties | Improve this Doc View Source CompressionType The type of compression used by the table. Declaration public TableCompressionTypeEnum CompressionType { get; set; } Property Value Type Description TableCompressionTypeEnum | Improve this Doc View Source Indexes Collection of table indexes. Declaration public List<Index> Indexes { get; set; } Property Value Type Description List < Index > | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source PrimaryKey The table's primary key. Declaration public PrimaryKey PrimaryKey { get; set; } Property Value Type Description PrimaryKey | Improve this Doc View Source Schema The table's schema. Declaration public string Schema { get; set; } Property Value Type Description System.String | Improve this Doc View Source TableColumns Collection of table columns. Declaration public List<TableColumnBase> TableColumns { get; set; } Property Value Type Description List < TableColumnBase > | Improve this Doc View Source Triggers Collection of table triggers. Declaration public List<Trigger> Triggers { get; set; } Property Value Type Description List < Trigger >"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.TableColumn.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumn.html",
+    "title": "Class TableColumn | Daf",
+    "keywords": "Class TableColumn Inheritance System.Object TableColumnBase TableColumn Inherited Members TableColumnBase.Name Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class TableColumn : TableColumnBase Properties | Improve this Doc View Source DataType The column's data type. Declaration public DataTypeEnum DataType { get; set; } Property Value Type Description DataTypeEnum | Improve this Doc View Source IsNullable Whether the column is nullable. Declaration public bool IsNullable { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Length The length of this column's data type. This only applies to data type definitions that accept a length parameter, such as String and Binary types. Use -1 for MAX length. Declaration public int Length { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Precision The precision of this column's data type. This only applies to data type definitions that accept a precision parameter, such as Decimal. Declaration public int Precision { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Scale The scale of this column's data type. This only applies to data type definitions that accept a scale parameter, such as Decimal. Declaration public int Scale { get; set; } Property Value Type Description System.Int32"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.TableColumnBase.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.TableColumnBase.html",
+    "title": "Class TableColumnBase | Daf",
+    "keywords": "Class TableColumnBase Inheritance System.Object TableColumnBase ForeignKey MultipleColumnForeignKey TableColumn Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public abstract class TableColumnBase : object Properties | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.TableCompressionTypeEnum.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.TableCompressionTypeEnum.html",
+    "title": "Enum TableCompressionTypeEnum | Daf",
+    "keywords": "Enum TableCompressionTypeEnum Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public enum TableCompressionTypeEnum : int Fields Name Description ColumnStore ColumnStoreArchive None Page Row"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerPlatformEnum.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerPlatformEnum.html",
+    "title": "Enum TargetSqlServerPlatformEnum | Daf",
+    "keywords": "Enum TargetSqlServerPlatformEnum Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public enum TargetSqlServerPlatformEnum : int Fields Name Description Azure SqlServer"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerVersionEnum.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.TargetSqlServerVersionEnum.html",
+    "title": "Enum TargetSqlServerVersionEnum | Daf",
+    "keywords": "Enum TargetSqlServerVersionEnum Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public enum TargetSqlServerVersionEnum : int Fields Name Description SqlServer2016 SqlServer2017 SqlServer2019"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.Trigger.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.Trigger.html",
+    "title": "Class Trigger | Daf",
+    "keywords": "Class Trigger Element in collection of table triggers. Inheritance System.Object Trigger Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class Trigger : object Properties | Improve this Doc View Source Statement The trigger's SQL statement. Declaration public string Statement { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-sql/Daf.Core.Sql.IonStructure.View.html": {
+    "href": "plugin-sql/Daf.Core.Sql.IonStructure.View.html",
+    "title": "Class View | Daf",
+    "keywords": "Class View Element in collection of all view definitions in the project. Inheritance System.Object Object View Inherited Members Object.Name Object.Schema Object.Statement Namespace : Daf.Core.Sql.IonStructure Assembly : Daf.Core.Sql.dll Syntax public class View : Object"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.AssemblyReference.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.AssemblyReference.html",
+    "title": "Class AssemblyReference | Daf",
+    "keywords": "Class AssemblyReference Element in collection of assembly references to be imported into the script project. Inheritance System.Object AssemblyReference Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class AssemblyReference : object Properties | Improve this Doc View Source AssemblyPath The path of the assembly to import. Declaration public string AssemblyPath { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ColumnErrorHandling.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ColumnErrorHandling.html",
+    "title": "Class ColumnErrorHandling | Daf",
+    "keywords": "Class ColumnErrorHandling Description missing. Inheritance System.Object ColumnErrorHandling Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ColumnErrorHandling : object Properties | Improve this Doc View Source ColumnName Description missing. Declaration public string ColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ErrorRowDisposition Description missing. Declaration public RowDispositionEnum ErrorRowDisposition { get; set; } Property Value Type Description RowDispositionEnum | Improve this Doc View Source TruncationRowDisposition Description missing. Declaration public RowDispositionEnum TruncationRowDisposition { get; set; } Property Value Type Description RowDispositionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Component.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Component.html",
+    "title": "Class Component | Daf",
+    "keywords": "Class Component Element in collection of dataflow components. Inheritance System.Object Component CustomComponent DerivedColumn FlatFileDestination FlatFileSource OleDbDestination OleDbSource RowCount Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Component : object Properties | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ComponentErrorHandling.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ComponentErrorHandling.html",
+    "title": "Class ComponentErrorHandling | Daf",
+    "keywords": "Class ComponentErrorHandling Description missing. This can be overridden at the column level. Inheritance System.Object ComponentErrorHandling Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ComponentErrorHandling : object Properties | Improve this Doc View Source ErrorInputs Description missing. Declaration public List<InputErrorHandling> ErrorInputs { get; set; } Property Value Type Description List < InputErrorHandling > | Improve this Doc View Source ErrorRowDisposition Description missing. Declaration public RowDispositionEnum ErrorRowDisposition { get; set; } Property Value Type Description RowDispositionEnum | Improve this Doc View Source Outputs Description missing. Declaration public List<OutputErrorHandling> Outputs { get; set; } Property Value Type Description List < OutputErrorHandling > | Improve this Doc View Source TruncationRowDisposition Description missing. Declaration public RowDispositionEnum TruncationRowDisposition { get; set; } Property Value Type Description RowDispositionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Connection.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Connection.html",
+    "title": "Class Connection | Daf",
+    "keywords": "Class Connection Element in collection of all the connections in the project. Inheritance System.Object Connection CustomConnection FlatFileConnection OleDbConnection Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Connection : object Properties | Improve this Doc View Source ConnectionString The connection string to use. Declaration public string ConnectionString { get; set; } Property Value Type Description System.String | Improve this Doc View Source DelayValidation Validation should be delayed until runtime. Declaration public bool DelayValidation { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source GUID Pre-defined GUID for the connection. Use this if you want the connection to work with incremental builds, or if you want to be able to deploy packages individually. Declaration public string GUID { get; set; } Property Value Type Description System.String | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source PropertyExpressions Collection of SSIS expressions for property value overrides. Declaration public List<PropertyExpression> PropertyExpressions { get; set; } Property Value Type Description List < PropertyExpression >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomComponent.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomComponent.html",
+    "title": "Class CustomComponent | Daf",
+    "keywords": "Class CustomComponent Inheritance System.Object Component CustomComponent Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class CustomComponent : Component Properties | Improve this Doc View Source ComponentTypeName The ComponentTypeName of the custom component. Declaration public string ComponentTypeName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ConnectionName The connection used to retrieve data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source CustomProperties Collection of custom properties for the custom component. Declaration public List<CustomProperty> CustomProperties { get; set; } Property Value Type Description List < CustomProperty > | Improve this Doc View Source DataFlowInputPath Description missing. Declaration public DataflowInputPath DataFlowInputPath { get; set; } Property Value Type Description DataflowInputPath"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomConnection.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomConnection.html",
+    "title": "Class CustomConnection | Daf",
+    "keywords": "Class CustomConnection Inheritance System.Object Connection CustomConnection Inherited Members Connection.PropertyExpressions Connection.ConnectionString Connection.Name Connection.GUID Connection.DelayValidation Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class CustomConnection : Connection Properties | Improve this Doc View Source CreationName The CreationName of the custom connection. Declaration public string CreationName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomProperty.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.CustomProperty.html",
+    "title": "Class CustomProperty | Daf",
+    "keywords": "Class CustomProperty Element in collection of custom properties for the custom component. Inheritance System.Object CustomProperty Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class CustomProperty : object Properties | Improve this Doc View Source DataType The custom property's data type. !!!NOT IMPLEMENTED!!! Declaration public string DataType { get; set; } Property Value Type Description System.String | Improve this Doc View Source Name The name of the custom property. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Value Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DatabaseTypeEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DatabaseTypeEnum.html",
+    "title": "Enum DatabaseTypeEnum | Daf",
+    "keywords": "Enum DatabaseTypeEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum DatabaseTypeEnum : int Fields Name Description AnsiString AnsiStringFixedLength Binary Boolean Byte Currency Date DateTime DateTime2 DateTimeOffset Decimal Double Guid Int16 Int32 Int64 Object SByte Single String StringFixedLength Time UInt16 UInt32 UInt64 VarNumeric Xml"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlow.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlow.html",
+    "title": "Class DataFlow | Daf",
+    "keywords": "Class DataFlow Inheritance System.Object Task DataFlow Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class DataFlow : Task Properties | Improve this Doc View Source AutoAdjustBufferSize Indicates that the buffer size should be auto-adjusted at runtime. Makes DefaultBufferSize irrelevant. Declaration public bool AutoAdjustBufferSize { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Components Collection of dataflow components. Declaration public List<Component> Components { get; set; } Property Value Type Description List < Component > | Improve this Doc View Source DefaultBufferMaxRows The maximum number of rows to store in the row buffer. Declaration public string DefaultBufferMaxRows { get; set; } Property Value Type Description System.String | Improve this Doc View Source DefaultBufferSize The size of the row buffer. Declaration public string DefaultBufferSize { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlowColumnMapping.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataFlowColumnMapping.html",
+    "title": "Class DataFlowColumnMapping | Daf",
+    "keywords": "Class DataFlowColumnMapping Description missing. Columns that aren't listed will be mapped implicitly based on name. Inheritance System.Object DataFlowColumnMapping Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class DataFlowColumnMapping : object Properties | Improve this Doc View Source IsUsed Description missing. !!!NOT IMPLEMENTED!!! Declaration public bool IsUsed { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source SortKeyPosition Description missing. !!!NOT IMPLEMENTED!!! Declaration public string SortKeyPosition { get; set; } Property Value Type Description System.String | Improve this Doc View Source SourceColumn Description missing. Declaration public string SourceColumn { get; set; } Property Value Type Description System.String | Improve this Doc View Source TargetColumn Description missing. Declaration public string TargetColumn { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DataflowInputPath.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DataflowInputPath.html",
+    "title": "Class DataflowInputPath | Daf",
+    "keywords": "Class DataflowInputPath Description missing. Inheritance System.Object DataflowInputPath Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class DataflowInputPath : object Properties | Improve this Doc View Source OutputPathName Description missing. Declaration public string OutputPathName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumn.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumn.html",
+    "title": "Class DerivedColumn | Daf",
+    "keywords": "Class DerivedColumn Inheritance System.Object Component DerivedColumn Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class DerivedColumn : Component Properties | Improve this Doc View Source DataFlowInputPath Description missing. Declaration public DataflowInputPath DataFlowInputPath { get; set; } Property Value Type Description DataflowInputPath | Improve this Doc View Source DerivedColumns Description missing. Declaration public List<DerivedColumnEntry> DerivedColumns { get; set; } Property Value Type Description List < DerivedColumnEntry >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumnEntry.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.DerivedColumnEntry.html",
+    "title": "Class DerivedColumnEntry | Daf",
+    "keywords": "Class DerivedColumnEntry Description missing. Inheritance System.Object DerivedColumnEntry Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class DerivedColumnEntry : object Properties | Improve this Doc View Source ColumnName The output name of the derived column. Declaration public string ColumnName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ErrorRowDisposition Row disposition if general error occur. Declaration public RowDispositionEnum ErrorRowDisposition { get; set; } Property Value Type Description RowDispositionEnum | Improve this Doc View Source Expression The expression that defines the derived column. Declaration public string Expression { get; set; } Property Value Type Description System.String | Improve this Doc View Source Replace The derived column replaces an existing column. If true, ColumnName must match an existing column and data type will not be modified regardless of expression value. Declaration public bool Replace { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source TruncationRowDisposition Row disposition if general truncation occur. Declaration public RowDispositionEnum TruncationRowDisposition { get; set; } Property Value Type Description RowDispositionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.EventHandler.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventHandler.html",
+    "title": "Class EventHandler | Daf",
+    "keywords": "Class EventHandler Element in collection of all event handlers in the package. Inheritance System.Object EventHandler Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class EventHandler : object Properties | Improve this Doc View Source EventType The type of event to handle. Declaration public EventTypeEnum EventType { get; set; } Property Value Type Description EventTypeEnum | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.EventTypeEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.EventTypeEnum.html",
+    "title": "Enum EventTypeEnum | Daf",
+    "keywords": "Enum EventTypeEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum EventTypeEnum : int Fields Name Description OnError OnExecStatusChanged OnInformation OnPostExecute OnPostValidate OnPreExecute OnPreValidate OnProgress OnQueryCancel OnTaskFailed OnVariableValueChanged OnWarning"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteProcess.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteProcess.html",
+    "title": "Class ExecuteProcess | Daf",
+    "keywords": "Class ExecuteProcess Inheritance System.Object Task ExecuteProcess Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ExecuteProcess : Task Properties | Improve this Doc View Source Arguments Declaration public string Arguments { get; set; } Property Value Type Description System.String | Improve this Doc View Source Executable Declaration public string Executable { get; set; } Property Value Type Description System.String | Improve this Doc View Source FailTaskIfReturnCodeIsNotSuccessValue Declaration public bool FailTaskIfReturnCodeIsNotSuccessValue { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source RequireFullFileName Declaration public bool RequireFullFileName { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source StandardErrorVariableName Declaration public string StandardErrorVariableName { get; set; } Property Value Type Description System.String | Improve this Doc View Source StandardInputVariableName Declaration public string StandardInputVariableName { get; set; } Property Value Type Description System.String | Improve this Doc View Source StandardOutputVariableName Declaration public string StandardOutputVariableName { get; set; } Property Value Type Description System.String | Improve this Doc View Source SuccessValue Declaration public int SuccessValue { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source TerminateProcessAfterTimeOut Declaration public bool TerminateProcessAfterTimeOut { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source TimeOut Declaration public int TimeOut { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source WindowStyle Declaration public WindowStyleEnum WindowStyle { get; set; } Property Value Type Description WindowStyleEnum | Improve this Doc View Source WorkingDirectory Declaration public string WorkingDirectory { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSql.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSql.html",
+    "title": "Class ExecuteSql | Daf",
+    "keywords": "Class ExecuteSql Inheritance System.Object Task ExecuteSql Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ExecuteSql : Task Properties | Improve this Doc View Source BypassPrepare Indicates wheter the task should prepare the query before executing it. Declaration public bool BypassPrepare { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source CodePage Specifies the code page value. Declaration public uint CodePage { get; set; } Property Value Type Description System.UInt32 | Improve this Doc View Source ConnectionName Specifies the connection used to access the data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source Results Collection of result-to-variable mappings for SQL query results. Declaration public List<Result> Results { get; set; } Property Value Type Description List < Result > | Improve this Doc View Source ResultSet Specifies the format of the query results. Declaration public ExecuteSqlResultSetEnum ResultSet { get; set; } Property Value Type Description ExecuteSqlResultSetEnum | Improve this Doc View Source SqlParameters Collection of variable-to-parameter mappings for SQL query parameters. Declaration public List<SqlParameter> SqlParameters { get; set; } Property Value Type Description List < SqlParameter > | Improve this Doc View Source SqlStatement The SQL statement to execute. Declaration public SqlStatement SqlStatement { get; set; } Property Value Type Description SqlStatement | Improve this Doc View Source TimeOut Specifies the time-out value. Declaration public uint TimeOut { get; set; } Property Value Type Description System.UInt32 | Improve this Doc View Source TypeConversionMode Specifies how the task will perform value to variable type conversions. Declaration public ExecuteSqlTypeConversionModeEnum TypeConversionMode { get; set; } Property Value Type Description ExecuteSqlTypeConversionModeEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlResultSetEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlResultSetEnum.html",
+    "title": "Enum ExecuteSqlResultSetEnum | Daf",
+    "keywords": "Enum ExecuteSqlResultSetEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum ExecuteSqlResultSetEnum : int Fields Name Description Full None SingleRow Xml"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlTypeConversionModeEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExecuteSqlTypeConversionModeEnum.html",
+    "title": "Enum ExecuteSqlTypeConversionModeEnum | Daf",
+    "keywords": "Enum ExecuteSqlTypeConversionModeEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum ExecuteSqlTypeConversionModeEnum : int Fields Name Description Allowed None"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Expression.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Expression.html",
+    "title": "Class Expression | Daf",
+    "keywords": "Class Expression Inheritance System.Object Task Expression Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Expression : Task Properties | Improve this Doc View Source ExpressionValue Expression. Declaration public string ExpressionValue { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ExternalTable.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ExternalTable.html",
+    "title": "Class ExternalTable | Daf",
+    "keywords": "Class ExternalTable Description missing. Inheritance System.Object ExternalTable Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ExternalTable : object Properties | Improve this Doc View Source Table Description missing. Declaration public string Table { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.File.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.File.html",
+    "title": "Class File | Daf",
+    "keywords": "Class File Element in collection of C#/VB code files to be included in the script project. Inheritance System.Object File Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class File : object Properties | Improve this Doc View Source Content The content of the generated script file. Declaration public string Content { get; set; } Property Value Type Description System.String | Improve this Doc View Source Path The relative path of the code file within the script project. Declaration public string Path { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileColumn.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileColumn.html",
+    "title": "Class FlatFileColumn | Daf",
+    "keywords": "Class FlatFileColumn Element in collection of flat file columns. Inheritance System.Object FlatFileColumn Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class FlatFileColumn : object Properties | Improve this Doc View Source CodePage The codepage of the column. This only applies to string-type columns. Declaration public int CodePage { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source DataType The column's data type. Declaration public DatabaseTypeEnum DataType { get; set; } Property Value Type Description DatabaseTypeEnum | Improve this Doc View Source Delimiter The delimiter of the column. Declaration public string Delimiter { get; set; } Property Value Type Description System.String | Improve this Doc View Source FastParse Declaration public bool FastParse { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source InputWidth The width of the column in the source file. Declaration public int InputWidth { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source OutputWidth The width of the column in the data flow. Declaration public int OutputWidth { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Precision The precision of this column's data type. This only applies to data type definitions that accept a precision parameter, such as Decimal. Declaration public int Precision { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Scale The scale of this column's data type. This only applies to data type definitions that accept a scale parameter, such as Decimal. Declaration public int Scale { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source TextQualified Declaration public bool TextQualified { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileConnection.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileConnection.html",
+    "title": "Class FlatFileConnection | Daf",
+    "keywords": "Class FlatFileConnection Inheritance System.Object Connection FlatFileConnection Inherited Members Connection.PropertyExpressions Connection.ConnectionString Connection.Name Connection.GUID Connection.DelayValidation Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class FlatFileConnection : Connection Properties | Improve this Doc View Source CodePage The encoding of the file. Declaration public int CodePage { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source ColumnNamesInFirstDataRow Declaration public bool ColumnNamesInFirstDataRow { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source FlatFileColumns Collection of flat file columns. Declaration public List<FlatFileColumn> FlatFileColumns { get; set; } Property Value Type Description List < FlatFileColumn > | Improve this Doc View Source Format The file's format (FixedWidth, Delimited or RaggedRight). Declaration public FlatFileFormatEnum Format { get; set; } Property Value Type Description FlatFileFormatEnum | Improve this Doc View Source HeaderRowsToSkip The number of rows to skip before reading data. Declaration public int HeaderRowsToSkip { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source LocaleId The locale ID of the file. Uses the building operating system's regional settings if left empty. Declaration public int LocaleId { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source TextQualifier The text qualifier of the file. Declaration public string TextQualifier { get; set; } Property Value Type Description System.String | Improve this Doc View Source Unicode Declaration public bool Unicode { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileDestination.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileDestination.html",
+    "title": "Class FlatFileDestination | Daf",
+    "keywords": "Class FlatFileDestination Inheritance System.Object Component FlatFileDestination Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class FlatFileDestination : Component Properties | Improve this Doc View Source ConnectionName The Flat File connection used to insert data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source DataFlowInputPath Description missing. Declaration public DataflowInputPath DataFlowInputPath { get; set; } Property Value Type Description DataflowInputPath | Improve this Doc View Source ErrorHandling Description missing. This can be overridden at the column level. Declaration public ComponentErrorHandling ErrorHandling { get; set; } Property Value Type Description ComponentErrorHandling | Improve this Doc View Source FlatFileDestinationColumns Description missing. Columns that aren't listed will be mapped implicitly based on name. Declaration public List<DataFlowColumnMapping> FlatFileDestinationColumns { get; set; } Property Value Type Description List < DataFlowColumnMapping > | Improve this Doc View Source Header The header to write to the top of the file. Declaration public string Header { get; set; } Property Value Type Description System.String | Improve this Doc View Source Overwrite Overwrite data in the target file. Declaration public bool Overwrite { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileFormatEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileFormatEnum.html",
+    "title": "Enum FlatFileFormatEnum | Daf",
+    "keywords": "Enum FlatFileFormatEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum FlatFileFormatEnum : int Fields Name Description Delimited FixedWidth RaggedRight"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileSource.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.FlatFileSource.html",
+    "title": "Class FlatFileSource | Daf",
+    "keywords": "Class FlatFileSource Inheritance System.Object Component FlatFileSource Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class FlatFileSource : Component Properties | Improve this Doc View Source ConnectionName The Flat File connection used to retrieve data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source FlatFileSourceColumns Description missing. Columns that aren't listed will be mapped implicitly based on name. Declaration public List<DataFlowColumnMapping> FlatFileSourceColumns { get; set; } Property Value Type Description List < DataFlowColumnMapping > | Improve this Doc View Source RetainNulls Retain empty values from the source as null values in the data flow. Declaration public bool RetainNulls { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ForceExecutionResultEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForceExecutionResultEnum.html",
+    "title": "Enum ForceExecutionResultEnum | Daf",
+    "keywords": "Enum ForceExecutionResultEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum ForceExecutionResultEnum : int Fields Name Description Completion Failure None Success"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ForEachFromVariableLoopContainer.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForEachFromVariableLoopContainer.html",
+    "title": "Class ForEachFromVariableLoopContainer | Daf",
+    "keywords": "Class ForEachFromVariableLoopContainer Inheritance System.Object Task SequenceContainer ForEachFromVariableLoopContainer Inherited Members SequenceContainer.Tasks Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ForEachFromVariableLoopContainer : SequenceContainer Properties | Improve this Doc View Source CollectionVariableName Name of the collection variable to loop over. Declaration public string CollectionVariableName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ForEachFromVariableMappings Maps fields in the collection to variables, by index. Declaration public List<VariableIndexMapping> ForEachFromVariableMappings { get; set; } Property Value Type Description List < VariableIndexMapping >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ForLoopContainer.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ForLoopContainer.html",
+    "title": "Class ForLoopContainer | Daf",
+    "keywords": "Class ForLoopContainer Inheritance System.Object Task SequenceContainer ForLoopContainer Inherited Members SequenceContainer.Tasks Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ForLoopContainer : SequenceContainer Properties | Improve this Doc View Source AssignExpression An expression to increment or decrement the loop counter. Declaration public string AssignExpression { get; set; } Property Value Type Description System.String | Improve this Doc View Source EvalExpression An expression to test whether the loop should continue or stop looping. Declaration public string EvalExpression { get; set; } Property Value Type Description System.String | Improve this Doc View Source InitExpression An expression to initialize the loop counter. Declaration public string InitExpression { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.html",
+    "title": "Namespace Daf.Core.Ssis.IonStructure | Daf",
+    "keywords": "Namespace Daf.Core.Ssis.IonStructure Classes AssemblyReference Element in collection of assembly references to be imported into the script project. ColumnErrorHandling Description missing. Component Element in collection of dataflow components. ComponentErrorHandling Description missing. This can be overridden at the column level. Connection Element in collection of all the connections in the project. CustomComponent CustomConnection CustomProperty Element in collection of custom properties for the custom component. DataFlow DataFlowColumnMapping Description missing. Columns that aren't listed will be mapped implicitly based on name. DataflowInputPath Description missing. DerivedColumn DerivedColumnEntry Description missing. EventHandler Element in collection of all event handlers in the package. ExecuteProcess ExecuteSql Expression ExternalTable Description missing. File Element in collection of C#/VB code files to be included in the script project. FlatFileColumn Element in collection of flat file columns. FlatFileConnection FlatFileDestination FlatFileSource ForEachFromVariableLoopContainer ForLoopContainer InputErrorHandling Description missing. InputPath Element in collection of precedence constraint input paths. OleDbConnection OleDbDestination OleDbSource OutputErrorHandling Description missing. Package Element in collection of all the SQL Server Integration Services (SSIS) packages in the project. Parameter Element in collection of all the parameters in the project. PrecedenceConstraintList Element in collection of precedence constraints. PropertyExpression Element in collection of SSIS expressions for property value overrides. Result Element in collection of result-to-variable mappings for SQL query results. RowCount Script ScriptProject Element in collection of all the project-wide, package-reusable ScriptProjects in the project. ScriptProjectReference Reference to a project-wide (\"global\") ScriptProject, located in the parent Project's ScriptProjects list and only compiled once. ScriptVariable Element in collection SSIS variable references that should be accessible to the ScriptProject as read-only variables. SequenceContainer SqlCommand SqlParameter Element in collection of variable-to-parameter mappings for SQL query parameters. SqlStatement Ssis Root node for SSIS projects. SsisProject An SSIS project holding SSIS packages and other related entities. Task Element in collection of child tasks. Variable Element in collection of all root-level variables in the package. VariableIndexMapping Maps fields in the collection to variables, by index. VariableParameterMapping Description missing. VariableResource Description missing. Enums DatabaseTypeEnum EventTypeEnum ExecuteSqlResultSetEnum ExecuteSqlTypeConversionModeEnum FlatFileFormatEnum ForceExecutionResultEnum LogicalOperationEnum ParameterDirectionEnum ProtectionLevelEnum RowDispositionEnum TargetSqlServerVersionEnum TaskEvaluationOperationTypeEnum TaskEvaluationOperationValueEnum WindowStyleEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.InputErrorHandling.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputErrorHandling.html",
+    "title": "Class InputErrorHandling | Daf",
+    "keywords": "Class InputErrorHandling Description missing. Inheritance System.Object InputErrorHandling Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class InputErrorHandling : object Properties | Improve this Doc View Source ErrorRowDisposition Description missing. Declaration public RowDispositionEnum ErrorRowDisposition { get; set; } Property Value Type Description RowDispositionEnum | Improve this Doc View Source InputErrorHandlingColumns Description missing. Declaration public List<ColumnErrorHandling> InputErrorHandlingColumns { get; set; } Property Value Type Description List < ColumnErrorHandling > | Improve this Doc View Source InputName Description missing. Declaration public string InputName { get; set; } Property Value Type Description System.String | Improve this Doc View Source TruncationRowDisposition Description missing. Declaration public RowDispositionEnum TruncationRowDisposition { get; set; } Property Value Type Description RowDispositionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.InputPath.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.InputPath.html",
+    "title": "Class InputPath | Daf",
+    "keywords": "Class InputPath Element in collection of precedence constraint input paths. Inheritance System.Object InputPath Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class InputPath : object Properties | Improve this Doc View Source EvaluationOperation The evaluation operation. Declaration public TaskEvaluationOperationTypeEnum EvaluationOperation { get; set; } Property Value Type Description TaskEvaluationOperationTypeEnum | Improve this Doc View Source EvaluationValue The evaluation value. Declaration public TaskEvaluationOperationValueEnum EvaluationValue { get; set; } Property Value Type Description TaskEvaluationOperationValueEnum | Improve this Doc View Source Expression The SSIS expression that must evaluate to \"True\" for execution to continue along this path Declaration public string Expression { get; set; } Property Value Type Description System.String | Improve this Doc View Source OutputPathName The output path to which this input path is connected. Declaration public string OutputPathName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.LogicalOperationEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.LogicalOperationEnum.html",
+    "title": "Enum LogicalOperationEnum | Daf",
+    "keywords": "Enum LogicalOperationEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum LogicalOperationEnum : int Fields Name Description And Or"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbConnection.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbConnection.html",
+    "title": "Class OleDbConnection | Daf",
+    "keywords": "Class OleDbConnection Inheritance System.Object Connection OleDbConnection Inherited Members Connection.PropertyExpressions Connection.ConnectionString Connection.Name Connection.GUID Connection.DelayValidation Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class OleDbConnection : Connection"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbDestination.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbDestination.html",
+    "title": "Class OleDbDestination | Daf",
+    "keywords": "Class OleDbDestination Inheritance System.Object Component OleDbDestination Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class OleDbDestination : Component Properties | Improve this Doc View Source CheckConstraints Description missing. Declaration public bool CheckConstraints { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ConnectionName The OLE DB connection used to insert data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source DataFlowInputPath Description missing. Declaration public DataflowInputPath DataFlowInputPath { get; set; } Property Value Type Description DataflowInputPath | Improve this Doc View Source ErrorHandling Description missing. This can be overridden at the column level. Declaration public ComponentErrorHandling ErrorHandling { get; set; } Property Value Type Description ComponentErrorHandling | Improve this Doc View Source ExternalTableOutput Description missing. Declaration public ExternalTable ExternalTableOutput { get; set; } Property Value Type Description ExternalTable | Improve this Doc View Source KeepIdentity Description missing. Declaration public bool KeepIdentity { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source KeepNulls Description missing. Declaration public bool KeepNulls { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source MaximumInsertCommitSize Description missing. Declaration public string MaximumInsertCommitSize { get; set; } Property Value Type Description System.String | Improve this Doc View Source OleDbDestinationColumns Description missing. Columns that aren't listed will be mapped implicitly based on name. Declaration public List<DataFlowColumnMapping> OleDbDestinationColumns { get; set; } Property Value Type Description List < DataFlowColumnMapping > | Improve this Doc View Source TableLock Description missing. Declaration public bool TableLock { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source UseFastLoadIfAvailable Description missing. Declaration public bool UseFastLoadIfAvailable { get; set; } Property Value Type Description System.Boolean"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbSource.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.OleDbSource.html",
+    "title": "Class OleDbSource | Daf",
+    "keywords": "Class OleDbSource Inheritance System.Object Component OleDbSource Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class OleDbSource : Component Properties | Improve this Doc View Source ConnectionName The OLE DB connection used to retrieve data. Declaration public string ConnectionName { get; set; } Property Value Type Description System.String | Improve this Doc View Source OleDbSourceColumns Description missing. Columns that aren't listed will be mapped implicitly based on name. Declaration public List<DataFlowColumnMapping> OleDbSourceColumns { get; set; } Property Value Type Description List < DataFlowColumnMapping > | Improve this Doc View Source SqlCommand The SQL command to execute. Declaration public SqlCommand SqlCommand { get; set; } Property Value Type Description SqlCommand | Improve this Doc View Source VariableInput Description missing. Declaration public VariableResource VariableInput { get; set; } Property Value Type Description VariableResource | Improve this Doc View Source VariableParameterMappings Description missing. Declaration public List<VariableParameterMapping> VariableParameterMappings { get; set; } Property Value Type Description List < VariableParameterMapping >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.OutputErrorHandling.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.OutputErrorHandling.html",
+    "title": "Class OutputErrorHandling | Daf",
+    "keywords": "Class OutputErrorHandling Description missing. Inheritance System.Object OutputErrorHandling Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class OutputErrorHandling : object Properties | Improve this Doc View Source ErrorRowDisposition Description missing. Declaration public RowDispositionEnum ErrorRowDisposition { get; set; } Property Value Type Description RowDispositionEnum | Improve this Doc View Source OutputErrorHandlingColumns Description missing. Declaration public List<ColumnErrorHandling> OutputErrorHandlingColumns { get; set; } Property Value Type Description List < ColumnErrorHandling > | Improve this Doc View Source OutputName Description missing. Declaration public string OutputName { get; set; } Property Value Type Description System.String | Improve this Doc View Source TruncationRowDisposition Description missing. Declaration public RowDispositionEnum TruncationRowDisposition { get; set; } Property Value Type Description RowDispositionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Package.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Package.html",
+    "title": "Class Package | Daf",
+    "keywords": "Class Package Element in collection of all the SQL Server Integration Services (SSIS) packages in the project. Inheritance System.Object Package Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Package : object Properties | Improve this Doc View Source Connections Collection of all the connections in the package. Declaration public List<Connection> Connections { get; set; } Property Value Type Description List < Connection > | Improve this Doc View Source DelayValidation Validation should be delayed until runtime. Declaration public bool DelayValidation { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source EventHandlers Collection of all event handlers in the package. Declaration public List<EventHandler> EventHandlers { get; set; } Property Value Type Description List < EventHandler > | Improve this Doc View Source LocaleId The locale ID for the package. Uses the building operating system's regional settings if left empty, or the project-level LocaleId if it's set. Declaration public int LocaleId { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Parameters Collection of all the parameters in the package. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter > | Improve this Doc View Source Tasks Collection of all the tasks in the package. Declaration public List<Task> Tasks { get; set; } Property Value Type Description List < Task > | Improve this Doc View Source Variables Collection of all root-level variables in the package. Declaration public List<Variable> Variables { get; set; } Property Value Type Description List < Variable >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Parameter.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Parameter.html",
+    "title": "Class Parameter | Daf",
+    "keywords": "Class Parameter Element in collection of all the parameters in the project. Inheritance System.Object Parameter Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Parameter : object Properties | Improve this Doc View Source DataType The data type of the parameter. Declaration public TypeCode DataType { get; set; } Property Value Type Description TypeCode | Improve this Doc View Source IsRequired This parameter requires a value to be set for each execution. Declaration public bool IsRequired { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Value The parameter's value. Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ParameterDirectionEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ParameterDirectionEnum.html",
+    "title": "Enum ParameterDirectionEnum | Daf",
+    "keywords": "Enum ParameterDirectionEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum ParameterDirectionEnum : int Fields Name Description Input Output ReturnValue"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.PrecedenceConstraintList.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.PrecedenceConstraintList.html",
+    "title": "Class PrecedenceConstraintList | Daf",
+    "keywords": "Class PrecedenceConstraintList Element in collection of precedence constraints. Inheritance System.Object PrecedenceConstraintList Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class PrecedenceConstraintList : object Properties | Improve this Doc View Source Inputs Collection of precedence constraint input paths. Declaration public List<InputPath> Inputs { get; set; } Property Value Type Description List < InputPath > | Improve this Doc View Source LogicalType Is this an \"And\" or an \"Or\" precedence constraint list? Declaration public LogicalOperationEnum LogicalType { get; set; } Property Value Type Description LogicalOperationEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.PropertyExpression.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.PropertyExpression.html",
+    "title": "Class PropertyExpression | Daf",
+    "keywords": "Class PropertyExpression Element in collection of SSIS expressions for property value overrides. Inheritance System.Object PropertyExpression Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class PropertyExpression : object Properties | Improve this Doc View Source PropertyName The target property to override. Declaration public string PropertyName { get; set; } Property Value Type Description System.String | Improve this Doc View Source Value Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ProtectionLevelEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ProtectionLevelEnum.html",
+    "title": "Enum ProtectionLevelEnum | Daf",
+    "keywords": "Enum ProtectionLevelEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum ProtectionLevelEnum : int Fields Name Description DontSaveSensitive EncryptAllWithPassword EncryptSensitiveWithPassword"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Result.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Result.html",
+    "title": "Class Result | Daf",
+    "keywords": "Class Result Element in collection of result-to-variable mappings for SQL query results. Inheritance System.Object Result Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Result : object Properties | Improve this Doc View Source ResultName The name of the result to map into a variable. Declaration public string ResultName { get; set; } Property Value Type Description System.String | Improve this Doc View Source VariableName The variable to map the result into. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.RowCount.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowCount.html",
+    "title": "Class RowCount | Daf",
+    "keywords": "Class RowCount Inheritance System.Object Component RowCount Inherited Members Component.Name Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class RowCount : Component Properties | Improve this Doc View Source DataFlowInputPath Description missing. Declaration public DataflowInputPath DataFlowInputPath { get; set; } Property Value Type Description DataflowInputPath | Improve this Doc View Source VariableName The integer variable where the row count will be stored. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.RowDispositionEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.RowDispositionEnum.html",
+    "title": "Enum RowDispositionEnum | Daf",
+    "keywords": "Enum RowDispositionEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum RowDispositionEnum : int Fields Name Description FailComponent IgnoreFailure NotUsed RedirectRow"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Script.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Script.html",
+    "title": "Class Script | Daf",
+    "keywords": "Class Script Inheritance System.Object Task Script Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Script : Task Properties | Improve this Doc View Source ScriptProject Script project, specifically compiled for this task. Declaration public ScriptProject ScriptProject { get; set; } Property Value Type Description ScriptProject | Improve this Doc View Source ScriptProjectReference Reference to a project-wide (\"global\") ScriptProject, located in the parent Project's ScriptProjects list and only compiled once. Declaration public ScriptProjectReference ScriptProjectReference { get; set; } Property Value Type Description ScriptProjectReference"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProject.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProject.html",
+    "title": "Class ScriptProject | Daf",
+    "keywords": "Class ScriptProject Element in collection of all the project-wide, package-reusable ScriptProjects in the project. Inheritance System.Object ScriptProject Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ScriptProject : object Properties | Improve this Doc View Source AssemblyReferences Collection of assembly references to be imported into the script project. Declaration public List<AssemblyReference> AssemblyReferences { get; set; } Property Value Type Description List < AssemblyReference > | Improve this Doc View Source Files Collection of C#/VB code files to be included in the script project. Declaration public List<File> Files { get; set; } Property Value Type Description List < File > | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source ReadOnlyVariables Collection SSIS variable references that should be accessible to the ScriptProject as read-only variables. Declaration public List<ScriptVariable> ReadOnlyVariables { get; set; } Property Value Type Description List < ScriptVariable > | Improve this Doc View Source ReadWriteVariables Collection SSIS variable references that should be accessible to the ScriptProject as read-write variables. Declaration public List<ScriptVariable> ReadWriteVariables { get; set; } Property Value Type Description List < ScriptVariable >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProjectReference.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptProjectReference.html",
+    "title": "Class ScriptProjectReference | Daf",
+    "keywords": "Class ScriptProjectReference Reference to a project-wide (\"global\") ScriptProject, located in the parent Project's ScriptProjects list and only compiled once. Inheritance System.Object ScriptProjectReference Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ScriptProjectReference : object Properties | Improve this Doc View Source ScriptProjectName The name of the project-wide (\"global\") ScriptProject. Declaration public string ScriptProjectName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptVariable.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.ScriptVariable.html",
+    "title": "Class ScriptVariable | Daf",
+    "keywords": "Class ScriptVariable Element in collection SSIS variable references that should be accessible to the ScriptProject as read-only variables. Inheritance System.Object ScriptVariable Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class ScriptVariable : object Properties | Improve this Doc View Source Namespace The SSIS namespace of the variable. Declaration public string Namespace { get; set; } Property Value Type Description System.String | Improve this Doc View Source VariableName The name of the SSIS variable. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.SequenceContainer.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.SequenceContainer.html",
+    "title": "Class SequenceContainer | Daf",
+    "keywords": "Class SequenceContainer Inheritance System.Object Task SequenceContainer ForEachFromVariableLoopContainer ForLoopContainer Inherited Members Task.PrecedenceConstraints Task.PropertyExpressions Task.Name Task.DelayValidation Task.ForceExecutionResult Task.PropagateErrors Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class SequenceContainer : Task Properties | Improve this Doc View Source Tasks Collection of child tasks. Declaration public List<Task> Tasks { get; set; } Property Value Type Description List < Task >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlCommand.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlCommand.html",
+    "title": "Class SqlCommand | Daf",
+    "keywords": "Class SqlCommand Inheritance System.Object SqlCommand Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class SqlCommand : object Properties | Improve this Doc View Source Value Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlParameter.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlParameter.html",
+    "title": "Class SqlParameter | Daf",
+    "keywords": "Class SqlParameter Element in collection of variable-to-parameter mappings for SQL query parameters. Inheritance System.Object SqlParameter Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class SqlParameter : object Properties | Improve this Doc View Source DataType The data type of the query parameter. Declaration public DatabaseTypeEnum DataType { get; set; } Property Value Type Description DatabaseTypeEnum | Improve this Doc View Source Direction The direction of the query parameter. Declaration public ParameterDirectionEnum Direction { get; set; } Property Value Type Description ParameterDirectionEnum | Improve this Doc View Source ParameterName The name of the query parameter to map the variable name against. Declaration public string ParameterName { get; set; } Property Value Type Description System.String | Improve this Doc View Source Size The size (length) of the mapped parameter value. Only relevant when used with an applicable data type (string, binary etc). Declaration public string Size { get; set; } Property Value Type Description System.String | Improve this Doc View Source VariableName The variable to map into the specified query parameter. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlStatement.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.SqlStatement.html",
+    "title": "Class SqlStatement | Daf",
+    "keywords": "Class SqlStatement Inheritance System.Object SqlStatement Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class SqlStatement : object Properties | Improve this Doc View Source Value Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Ssis.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Ssis.html",
+    "title": "Class Ssis | Daf",
+    "keywords": "Class Ssis Root node for SSIS projects. Inheritance System.Object Ssis Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Ssis : object Properties | Improve this Doc View Source SsisProjects Collection of SSIS projects. Declaration public List<SsisProject> SsisProjects { get; set; } Property Value Type Description List < SsisProject >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.SsisProject.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.SsisProject.html",
+    "title": "Class SsisProject | Daf",
+    "keywords": "Class SsisProject An SSIS project holding SSIS packages and other related entities. Inheritance System.Object SsisProject Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class SsisProject : object Properties | Improve this Doc View Source Connections Collection of all the connections in the project. Declaration public List<Connection> Connections { get; set; } Property Value Type Description List < Connection > | Improve this Doc View Source LocaleId The default locale ID for the packages in the project (unless overridden by the package). Declaration public int LocaleId { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Packages Collection of all the SQL Server Integration Services (SSIS) packages in the project. Declaration public List<Package> Packages { get; set; } Property Value Type Description List < Package > | Improve this Doc View Source Parameters Collection of all the parameters in the project. Declaration public List<Parameter> Parameters { get; set; } Property Value Type Description List < Parameter > | Improve this Doc View Source Password The password to use when using password-based encryption. Only applies when the project's ProtectionLevel is either EncryptAllWithPassword or EncryptSensitiveWithPassword. Declaration public string Password { get; set; } Property Value Type Description System.String | Improve this Doc View Source ProtectionLevel The project's protection level Declaration public ProtectionLevelEnum ProtectionLevel { get; set; } Property Value Type Description ProtectionLevelEnum | Improve this Doc View Source ScriptProjects Collection of all the project-wide, package-reusable ScriptProjects in the project. Declaration public List<ScriptProject> ScriptProjects { get; set; } Property Value Type Description List < ScriptProject > | Improve this Doc View Source TargetSqlServerVersion The target SQL Server version. Declaration public TargetSqlServerVersionEnum TargetSqlServerVersion { get; set; } Property Value Type Description TargetSqlServerVersionEnum"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.TargetSqlServerVersionEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.TargetSqlServerVersionEnum.html",
+    "title": "Enum TargetSqlServerVersionEnum | Daf",
+    "keywords": "Enum TargetSqlServerVersionEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum TargetSqlServerVersionEnum : int Fields Name Description SqlServer2016 SqlServer2017 SqlServer2019"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Task.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Task.html",
+    "title": "Class Task | Daf",
+    "keywords": "Class Task Element in collection of child tasks. Inheritance System.Object Task DataFlow ExecuteProcess ExecuteSql Expression Script SequenceContainer Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public abstract class Task : object Properties | Improve this Doc View Source DelayValidation Validation should be delayed until runtime. Declaration public bool DelayValidation { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source ForceExecutionResult The ForceExecutionResult property of the object. Declaration public ForceExecutionResultEnum ForceExecutionResult { get; set; } Property Value Type Description ForceExecutionResultEnum | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source PrecedenceConstraints Collection of precedence constraints. Declaration public PrecedenceConstraintList PrecedenceConstraints { get; set; } Property Value Type Description PrecedenceConstraintList | Improve this Doc View Source PropagateErrors If false, an OnError EventHandler with Propagate = false is created for this task. Declaration public bool PropagateErrors { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source PropertyExpressions Collection of SSIS expressions for property value overrides. Declaration public List<PropertyExpression> PropertyExpressions { get; set; } Property Value Type Description List < PropertyExpression >"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationTypeEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationTypeEnum.html",
+    "title": "Enum TaskEvaluationOperationTypeEnum | Daf",
+    "keywords": "Enum TaskEvaluationOperationTypeEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum TaskEvaluationOperationTypeEnum : int Fields Name Description Constraint Expression ExpressionAndConstraint ExpressionOrConstraint"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationValueEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.TaskEvaluationOperationValueEnum.html",
+    "title": "Enum TaskEvaluationOperationValueEnum | Daf",
+    "keywords": "Enum TaskEvaluationOperationValueEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum TaskEvaluationOperationValueEnum : int Fields Name Description Completion Failure Success"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.Variable.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.Variable.html",
+    "title": "Class Variable | Daf",
+    "keywords": "Class Variable Element in collection of all root-level variables in the package. Inheritance System.Object Variable Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class Variable : object Properties | Improve this Doc View Source DataType The data type of the variable. Declaration public TypeCode DataType { get; set; } Property Value Type Description TypeCode | Improve this Doc View Source EvaluateAsExpression The variable's value should be evaluated as an expression. Declaration public bool EvaluateAsExpression { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Name The name of the object. Declaration public string Name { get; set; } Property Value Type Description System.String | Improve this Doc View Source Namespace The namespace of the variable. Declaration public string Namespace { get; set; } Property Value Type Description System.String | Improve this Doc View Source ReadOnly Initial variable value is read-only. Declaration public bool ReadOnly { get; set; } Property Value Type Description System.Boolean | Improve this Doc View Source Value The variable's value. Declaration public string Value { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableIndexMapping.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableIndexMapping.html",
+    "title": "Class VariableIndexMapping | Daf",
+    "keywords": "Class VariableIndexMapping Maps fields in the collection to variables, by index. Inheritance System.Object VariableIndexMapping Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class VariableIndexMapping : object Properties | Improve this Doc View Source Index Index in the collection. Declaration public int Index { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source VariableName Name of the variable to map to. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableParameterMapping.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableParameterMapping.html",
+    "title": "Class VariableParameterMapping | Daf",
+    "keywords": "Class VariableParameterMapping Description missing. Inheritance System.Object VariableParameterMapping Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class VariableParameterMapping : object Properties | Improve this Doc View Source ParameterName Description missing. Declaration public string ParameterName { get; set; } Property Value Type Description System.String | Improve this Doc View Source VariableName Description missing. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableResource.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.VariableResource.html",
+    "title": "Class VariableResource | Daf",
+    "keywords": "Class VariableResource Description missing. Inheritance System.Object VariableResource Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public class VariableResource : object Properties | Improve this Doc View Source VariableName Description missing. Declaration public string VariableName { get; set; } Property Value Type Description System.String"
+  },
+  "plugin-ssis/Daf.Core.Ssis.IonStructure.WindowStyleEnum.html": {
+    "href": "plugin-ssis/Daf.Core.Ssis.IonStructure.WindowStyleEnum.html",
+    "title": "Enum WindowStyleEnum | Daf",
+    "keywords": "Enum WindowStyleEnum Namespace : Daf.Core.Ssis.IonStructure Assembly : Daf.Core.Ssis.dll Syntax public enum WindowStyleEnum : int Fields Name Description Hidden Maximized Minimized Normal"
+  },
+  "tutorials/intro.html": {
+    "href": "tutorials/intro.html",
+    "title": "Daf | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. Daf Todo: Intro/description"
+  },
+  "tutorials/project-configuration.html": {
+    "href": "tutorials/project-configuration.html",
+    "title": "Build system configuration priority order | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. Build system configuration priority order There are a few ways to override the default build configuration properties. When a property has been defined in multiple places, the below priority order is used: Workspace (vscode) → user (vscode) → .daf (msbuild) → .daf.user (msbuild) → .props (msbuild)"
+  },
+  "tutorials-adf/deploying.html": {
+    "href": "tutorials-adf/deploying.html",
+    "title": "Deploying a project | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. Deploying a project Follow these instructions once your ADF project has been built. First run only: Run Powershell as an administrator. Run the following command: Install-Module -Name Az in order to install the required modules. This doesn't need to be done if you already have the required modules. Subsequent runs: Run the deployment script that was created in the bin folder of the Daf project. The deployment script should delete all data sets, pipelines and linked services in your ADF project before re-creating them. Currently, however, it simply deletes the data sets, pipelines and linked services matching the names of the ones currently being deployed. This can lead to orphanad ADF objects after renames, that the user should clean up manually in their ADF project."
+  },
+  "tutorials-adf/intro.html": {
+    "href": "tutorials-adf/intro.html",
+    "title": "ADF | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. ADF Todo: Intro/description"
+  },
+  "tutorials-sql/intro.html": {
+    "href": "tutorials-sql/intro.html",
+    "title": "SQL | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. SQL Todo: Intro/description"
+  },
+  "tutorials-ssis/intro.html": {
+    "href": "tutorials-ssis/intro.html",
+    "title": "SSIS | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. SSIS Todo: Intro/description"
+  },
+  "tutorials-ssis/prerequisites.html": {
+    "href": "tutorials-ssis/prerequisites.html",
+    "title": "Prerequisites for using the Daf SSIS plugin | Daf",
+    "keywords": "Note This project is currently in an alpha state and should be considered unstable. Breaking changes will occur. This website is a work in progress, and any API or product descriptions are subject to change. Prerequisites for using the Daf SSIS plugin Visual Studio Code Install the VS Code extension from the extension marketplace. A local SQL Server installation with the following components installed (nothing else is required): Client Tools SDK Integration Services Prerequisites for opening built SSIS projects https://marketplace.visualstudio.com/items?itemName=SSIS.SqlServerIntegrationServicesProjects"
+  }
+}
