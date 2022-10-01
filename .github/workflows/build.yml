@@ -36,7 +36,7 @@ jobs:
           repository: data-automation-framework/daf-core-adf
           path: daf-core-adf
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 6.0.x # SDK Version to use.
           source-url: https://nuget.pkg.github.com/data-automation-framework/index.json
