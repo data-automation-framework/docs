@@ -49,7 +49,7 @@ jobs:
       - name: Restore nuget packages for Adf
         run: dotnet restore daf-core-adf/Daf.Core.Adf/Daf.Core.Adf.csproj
       - name: Download latest DocFX release
-        uses: carlosperate/download-file-action@v1.1.1
+        uses: carlosperate/download-file-action@v2.0.0
         with:
           file-url: 'https://github.com/dotnet/docfx/releases/latest/download/docfx.zip'
       - name: Unzip DocFX
